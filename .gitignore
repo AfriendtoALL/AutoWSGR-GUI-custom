@@ -11,12 +11,23 @@
 *.dylib
 *.blob
 
-# 排除第三方运行时和资源目录
-python/
+# 排除第三方运行时和资源目录；仅放行后端源码包 autowsgr/
+python/*
+!python/site-packages/
+python/site-packages/*
+!python/site-packages/autowsgr/
 adb/
 redist/
 locales/
 resources/
+
+# 排除 Python 字节码
+__pycache__/
+*.pyc
+
+# 排除随包分发的二进制件（OCR 模型约 30 MB、scrcpy-server.jar）
+python/site-packages/autowsgr/data/ocr/**/*.onnx
+*.jar
 
 # 排除日志、缓存和临时文件
 logs/
