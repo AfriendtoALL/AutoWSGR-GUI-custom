@@ -1,0 +1,28 @@
+# 排除 Electron/Chromium 运行库和可执行文件
+*.exe
+*.dll
+*.pak
+*.dat
+*.bin
+*.html
+*.txt
+*.json
+*.so
+*.dylib
+*.blob
+
+# 排除第三方运行时和资源目录
+python/
+adb/
+redist/
+locales/
+resources/
+
+# 排除日志、缓存和临时文件
+logs/
+.workbuddy/
+.env_ready
+
+# 排除你自己的编译产物或不需要同步的目录（视情况保留）
+# dist/
+# build/
