@@ -35,9 +35,8 @@ __pycache__/
 python/site-packages/autowsgr/data/ocr/**/*.onnx
 *.jar
 
-# 排除体积较大的二进制素材：本地回归基准图与开发参考截图（源码仓库不收录）
+# 排除体积较大的开发参考截图（源码仓库不收录）
 SCS/
-tests/golden/images/
 
 # 排除日志、缓存和临时文件
 logs/
