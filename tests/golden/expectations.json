@@ -1,0 +1,1526 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-29T11:53:42+00:00",
+  "generator": "tests/golden/generate_expectations.py",
+  "score_tolerance": 0.002,
+  "recognition": {
+    "entry": "autowsgr.ui.page.get_current_page",
+    "candidates": null,
+    "combat_phase": "autowsgr.combat.recognizer.CombatRecognizer.identify_current"
+  },
+  "environment": {
+    "python": "3.12.8",
+    "opencv": "5.0.0",
+    "numpy": "2.5.4",
+    "autowsgr": "2.3.0"
+  },
+  "summary": {
+    "total": 75,
+    "sources": {
+      "real_expedition": 1,
+      "real_login": 1,
+      "real_nav_error": 19,
+      "real_session": 41,
+      "synthetic": 13
+    },
+    "by_page": {
+      "UNKNOWN": 56,
+      "主页面": 1,
+      "任务页面": 1,
+      "侧边栏": 1,
+      "决战页面": 1,
+      "出征准备": 4,
+      "后院页面": 1,
+      "地图页面": 1,
+      "好友页面": 1,
+      "建造页面": 1,
+      "强化页面": 1,
+      "活动页面": 1,
+      "浴室页面": 1,
+      "登录页面": 1,
+      "选择舰船页面": 2,
+      "食堂页面": 1
+    },
+    "registered_pages": [
+      "主页面",
+      "地图页面",
+      "侧边栏",
+      "任务页面",
+      "后院页面",
+      "浴室页面",
+      "食堂页面",
+      "建造页面",
+      "强化页面",
+      "好友页面",
+      "活动页面",
+      "决战页面",
+      "选择舰船页面",
+      "登录页面",
+      "出征准备"
+    ],
+    "covered_pages": [
+      "主页面",
+      "任务页面",
+      "侧边栏",
+      "决战页面",
+      "出征准备",
+      "后院页面",
+      "地图页面",
+      "好友页面",
+      "建造页面",
+      "强化页面",
+      "活动页面",
+      "浴室页面",
+      "登录页面",
+      "选择舰船页面",
+      "食堂页面"
+    ],
+    "missing_pages": [],
+    "real_page_coverage": [
+      "出征准备",
+      "登录页面",
+      "选择舰船页面"
+    ],
+    "fixture_only_pages": [
+      "主页面",
+      "任务页面",
+      "侧边栏",
+      "决战页面",
+      "后院页面",
+      "地图页面",
+      "好友页面",
+      "建造页面",
+      "强化页面",
+      "活动页面",
+      "浴室页面",
+      "食堂页面"
+    ]
+  },
+  "images": {
+    "pages/BACKYARD.png": {
+      "source": "synthetic",
+      "origin": "autowsgr:data/images/page/backyard_540p.png",
+      "fixture_template": "page/backyard_540p.png",
+      "expected_page": "后院页面",
+      "expected_score": 1.0,
+      "expected_threshold": 0.85,
+      "expected_matched": true,
+      "top_page": "后院页面",
+      "top_score": 1.0,
+      "top_threshold": 0.85,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        540,
+        960,
+        3
+      ]
+    },
+    "pages/BATH.png": {
+      "source": "synthetic",
+      "origin": "autowsgr:data/images/bath/bath_540p.png",
+      "fixture_template": "bath/bath_540p.png",
+      "expected_page": "浴室页面",
+      "expected_score": 0.999999,
+      "expected_threshold": 0.85,
+      "expected_matched": true,
+      "top_page": "浴室页面",
+      "top_score": 0.999999,
+      "top_threshold": 0.85,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        540,
+        960,
+        3
+      ]
+    },
+    "pages/BUILD.png": {
+      "source": "synthetic",
+      "origin": "autowsgr:data/images/ui/build.png",
+      "fixture_template": "ui/build.png",
+      "expected_page": "建造页面",
+      "expected_score": 0.964701,
+      "expected_threshold": 0.6,
+      "expected_matched": true,
+      "top_page": "建造页面",
+      "top_score": 0.964701,
+      "top_threshold": 0.6,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        540,
+        960,
+        3
+      ]
+    },
+    "pages/CANTEEN.png": {
+      "source": "synthetic",
+      "origin": "autowsgr:data/images/page/canteen_540p.png",
+      "fixture_template": "page/canteen_540p.png",
+      "expected_page": "食堂页面",
+      "expected_score": 1.0,
+      "expected_threshold": 0.85,
+      "expected_matched": true,
+      "top_page": "食堂页面",
+      "top_score": 1.0,
+      "top_threshold": 0.85,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        540,
+        960,
+        3
+      ]
+    },
+    "pages/CHOOSE_SHIP.png": {
+      "source": "synthetic",
+      "origin": "autowsgr:page-signature/CHOOSE_SHIP",
+      "fixture_template": null,
+      "expected_page": "选择舰船页面",
+      "expected_score": 1.0,
+      "expected_threshold": 1.0,
+      "expected_matched": true,
+      "top_page": "选择舰船页面",
+      "top_score": 1.0,
+      "top_threshold": 1.0,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        540,
+        960,
+        3
+      ]
+    },
+    "pages/DECISIVE_BATTLE.png": {
+      "source": "synthetic",
+      "origin": "autowsgr:data/images/decisive/entry_challenging_540p.png",
+      "fixture_template": "decisive/entry_challenging_540p.png",
+      "expected_page": "决战页面",
+      "expected_score": 1.0,
+      "expected_threshold": 0.8,
+      "expected_matched": true,
+      "top_page": "决战页面",
+      "top_score": 1.0,
+      "top_threshold": 0.8,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        540,
+        960,
+        3
+      ]
+    },
+    "pages/EVENT_MAP.png": {
+      "source": "synthetic",
+      "origin": "autowsgr:data/images/event/quiz_prompt_20260930_540p.png",
+      "fixture_template": "event/quiz_prompt_20260930_540p.png",
+      "expected_page": "活动页面",
+      "expected_score": 1.0,
+      "expected_threshold": 0.85,
+      "expected_matched": true,
+      "top_page": "活动页面",
+      "top_score": 1.0,
+      "top_threshold": 0.85,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        540,
+        960,
+        3
+      ]
+    },
+    "pages/FRIEND.png": {
+      "source": "synthetic",
+      "origin": "autowsgr:data/images/ui/friend.png",
+      "fixture_template": "ui/friend.png",
+      "expected_page": "好友页面",
+      "expected_score": 0.859031,
+      "expected_threshold": 0.6,
+      "expected_matched": true,
+      "top_page": "好友页面",
+      "top_score": 0.859031,
+      "top_threshold": 0.6,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        540,
+        960,
+        3
+      ]
+    },
+    "pages/INTENSIFY.png": {
+      "source": "synthetic",
+      "origin": "autowsgr:data/images/ui/intensify.png",
+      "fixture_template": "ui/intensify.png",
+      "expected_page": "强化页面",
+      "expected_score": 0.951765,
+      "expected_threshold": 0.6,
+      "expected_matched": true,
+      "top_page": "强化页面",
+      "top_score": 0.951765,
+      "top_threshold": 0.6,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        540,
+        960,
+        3
+      ]
+    },
+    "pages/MAIN.png": {
+      "source": "synthetic",
+      "origin": "autowsgr:data/images/main_page/main_page_540p.png",
+      "fixture_template": "main_page/main_page_540p.png",
+      "expected_page": "主页面",
+      "expected_score": 1.0,
+      "expected_threshold": 0.95,
+      "expected_matched": true,
+      "top_page": "主页面",
+      "top_score": 1.0,
+      "top_threshold": 0.95,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        540,
+        960,
+        3
+      ]
+    },
+    "pages/MAP.png": {
+      "source": "synthetic",
+      "origin": "autowsgr:data/images/ui/map.png",
+      "fixture_template": "ui/map.png",
+      "expected_page": "地图页面",
+      "expected_score": 0.958918,
+      "expected_threshold": 0.6,
+      "expected_matched": true,
+      "top_page": "地图页面",
+      "top_score": 0.958918,
+      "top_threshold": 0.6,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        540,
+        960,
+        3
+      ]
+    },
+    "pages/MISSION.png": {
+      "source": "synthetic",
+      "origin": "autowsgr:data/images/ui/mission.png",
+      "fixture_template": "ui/mission.png",
+      "expected_page": "任务页面",
+      "expected_score": 0.858382,
+      "expected_threshold": 0.6,
+      "expected_matched": true,
+      "top_page": "任务页面",
+      "top_score": 0.858382,
+      "top_threshold": 0.6,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        540,
+        960,
+        3
+      ]
+    },
+    "pages/SIDEBAR.png": {
+      "source": "synthetic",
+      "origin": "autowsgr:data/images/page/sidebar_540p.png",
+      "fixture_template": "page/sidebar_540p.png",
+      "expected_page": "侧边栏",
+      "expected_score": 1.0,
+      "expected_threshold": 0.8,
+      "expected_matched": true,
+      "top_page": "侧边栏",
+      "top_score": 1.0,
+      "top_threshold": 0.8,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        540,
+        960,
+        3
+      ]
+    },
+    "real/expedition/NavError_104026_562.png": {
+      "source": "real_expedition",
+      "origin": "logs/2026-10-29_02-09-36/images/NavError_104026_562.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.674235,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "决战页面",
+      "top_score": 0.674235,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/login/NavError_182947_187.png": {
+      "source": "real_login",
+      "origin": "logs/2026-10-29_10-29-27/images/NavError_182947_187.png",
+      "fixture_template": null,
+      "expected_page": "登录页面",
+      "expected_score": 0.999998,
+      "expected_threshold": 0.85,
+      "expected_matched": true,
+      "top_page": "登录页面",
+      "top_score": 0.999998,
+      "top_threshold": 0.85,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_100251_968.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_100251_968.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.5445,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.5445,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "RESULT",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_100309_546.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_100309_546.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.5445,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.5445,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "RESULT",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_100323_781.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_100323_781.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.623417,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "食堂页面",
+      "top_score": 0.623417,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": "EXP_SETTLEMENT",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_102402_687.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_102402_687.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.691825,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.691825,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": "PROCEED",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_102419_859.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_102419_859.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.691788,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.691788,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": "PROCEED",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_105304_343.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_105304_343.png",
+      "fixture_template": null,
+      "expected_page": "选择舰船页面",
+      "expected_score": 1.0,
+      "expected_threshold": 1.0,
+      "expected_matched": true,
+      "top_page": "选择舰船页面",
+      "top_score": 1.0,
+      "top_threshold": 1.0,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_105313_203.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_105313_203.png",
+      "fixture_template": null,
+      "expected_page": "出征准备",
+      "expected_score": 0.94949,
+      "expected_threshold": 0.85,
+      "expected_matched": true,
+      "top_page": "出征准备",
+      "top_score": 0.94949,
+      "top_threshold": 0.85,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_115411_031.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_115411_031.png",
+      "fixture_template": null,
+      "expected_page": "出征准备",
+      "expected_score": 0.949491,
+      "expected_threshold": 0.85,
+      "expected_matched": true,
+      "top_page": "出征准备",
+      "top_score": 0.949491,
+      "top_threshold": 0.85,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_115430_515.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_115430_515.png",
+      "fixture_template": null,
+      "expected_page": "出征准备",
+      "expected_score": 0.949646,
+      "expected_threshold": 0.85,
+      "expected_matched": true,
+      "top_page": "出征准备",
+      "top_score": 0.949646,
+      "top_threshold": 0.85,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_115446_578.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_115446_578.png",
+      "fixture_template": null,
+      "expected_page": "出征准备",
+      "expected_score": 0.949515,
+      "expected_threshold": 0.85,
+      "expected_matched": true,
+      "top_page": "出征准备",
+      "top_score": 0.949515,
+      "top_threshold": 0.85,
+      "top_matched": true,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_115717_859.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_115717_859.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.667953,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "决战页面",
+      "top_score": 0.667953,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_115739_484.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_115739_484.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.667953,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "决战页面",
+      "top_score": 0.667953,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_133909_140.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_133909_140.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.545671,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.545671,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "RESULT",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_133925_984.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_133925_984.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.545711,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.545711,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "RESULT",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_142304_343.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_142304_343.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.667961,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "食堂页面",
+      "top_score": 0.667961,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": "MAP_PAGE",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_142321_890.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_142321_890.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.668144,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "决战页面",
+      "top_score": 0.668144,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "MAP_PAGE",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_142446_578.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_142446_578.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.554134,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.554134,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "FIGHT_PERIOD",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_160952_390.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_160952_390.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.559039,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.559039,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "RESULT",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/nav_error/NavError_161008_890.png": {
+      "source": "real_nav_error",
+      "origin": "logs/images/NavError_161008_890.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.58191,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "决战页面",
+      "top_score": 0.58191,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "GET_SHIP",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_09-55-52/NavError_175816_468.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_09-55-52/images/NavError_175816_468.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.590089,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "决战页面",
+      "top_score": 0.590089,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "RESULT",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-00-04/NavError_180024_765.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-00-04/images/NavError_180024_765.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.590089,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "决战页面",
+      "top_score": 0.590089,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "RESULT",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-00-04/NavError_180033_828.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-00-04/images/NavError_180033_828.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.590089,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "决战页面",
+      "top_score": 0.590089,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "RESULT",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-00-04/NavError_180044_453.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-00-04/images/NavError_180044_453.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.590089,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "决战页面",
+      "top_score": 0.590089,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "RESULT",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-00-04/NavError_180143_828.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-00-04/images/NavError_180143_828.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.606225,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "决战页面",
+      "top_score": 0.606225,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "FIGHT_PERIOD",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-00-04/NavError_180153_187.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-00-04/images/NavError_180153_187.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.533642,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.533642,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "FIGHT_PERIOD",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-00-04/NavError_180204_968.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-00-04/images/NavError_180204_968.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.650052,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.650052,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "FIGHT_PERIOD",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-00-04/NavError_180218_359.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-00-04/images/NavError_180218_359.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.602861,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "决战页面",
+      "top_score": 0.602861,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "RESULT",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-00-04/NavError_180227_796.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-00-04/images/NavError_180227_796.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.602858,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "决战页面",
+      "top_score": 0.602858,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "RESULT",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-00-04/NavError_180239_062.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-00-04/images/NavError_180239_062.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.602859,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "决战页面",
+      "top_score": 0.602859,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": "RESULT",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-30-51/NavError_183116_921.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-30-51/images/NavError_183116_921.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.584923,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.584923,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-30-51/NavError_183129_859.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-30-51/images/NavError_183129_859.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.589584,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.589584,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-30-51/NavError_183143_656.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-30-51/images/NavError_183143_656.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.586227,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.586227,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-30-51/NavError_183143_687.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-30-51/images/NavError_183143_687.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.589526,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.589526,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-30-51/NavError_183157_203.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-30-51/images/NavError_183157_203.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.585021,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.585021,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-30-51/NavError_183206_468.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-30-51/images/NavError_183206_468.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.58122,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.58122,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-30-51/NavError_183217_296.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-30-51/images/NavError_183217_296.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.586854,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.586854,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-30-51/NavError_183231_156.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-30-51/images/NavError_183231_156.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.593021,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.593021,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-30-51/NavError_183241_109.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-30-51/images/NavError_183241_109.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.585382,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.585382,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-30-51/NavError_183252_578.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-30-51/images/NavError_183252_578.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.586385,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.586385,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-30-51/NavError_183309_218.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-30-51/images/NavError_183309_218.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.584878,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.584878,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-30-51/NavError_183318_859.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-30-51/images/NavError_183318_859.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.589492,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.589492,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-34-03/NavError_183522_453.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-34-03/images/NavError_183522_453.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.52148,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.52148,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-34-03/NavError_183531_078.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-34-03/images/NavError_183531_078.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.52148,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.52148,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-34-03/NavError_183541_187.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-34-03/images/NavError_183541_187.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.52148,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.52148,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-34-03/NavError_183635_765.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-34-03/images/NavError_183635_765.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.520838,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.520838,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-34-03/NavError_183644_343.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-34-03/images/NavError_183644_343.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.520914,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.520914,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-34-03/NavError_183654_578.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-34-03/images/NavError_183654_578.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.520838,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.520838,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-34-03/NavError_183736_359.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-34-03/images/NavError_183736_359.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.52148,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.52148,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-34-03/NavError_183745_046.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-34-03/images/NavError_183745_046.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.52148,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.52148,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-34-03/NavError_183755_531.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-34-03/images/NavError_183755_531.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.52148,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.52148,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-38-33/NavError_183951_718.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-38-33/images/NavError_183951_718.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.571195,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "食堂页面",
+      "top_score": 0.571195,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-38-33/NavError_184001_296.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-38-33/images/NavError_184001_296.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.587792,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "决战页面",
+      "top_score": 0.587792,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-26_10-38-33/NavError_184012_203.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-26_10-38-33/images/NavError_184012_203.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.722102,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.722102,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-27_00-17-38/NavError_100316_453.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-27_00-17-38/images/NavError_100316_453.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.676423,
+      "expected_threshold": 0.8,
+      "expected_matched": false,
+      "top_page": "决战页面",
+      "top_score": 0.676423,
+      "top_threshold": 0.8,
+      "top_matched": false,
+      "combat_phase": null,
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-28_00-30-15/NavError_084625_046.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-28_00-30-15/images/NavError_084625_046.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.661769,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "食堂页面",
+      "top_score": 0.661769,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": "RESULT",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-28_00-30-15/NavError_084634_859.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-28_00-30-15/images/NavError_084634_859.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.661769,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "食堂页面",
+      "top_score": 0.661769,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": "RESULT",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-28_00-30-15/NavError_084646_125.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-28_00-30-15/images/NavError_084646_125.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.661769,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "食堂页面",
+      "top_score": 0.661769,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": "RESULT",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-28_00-30-15/NavError_090042_125.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-28_00-30-15/images/NavError_090042_125.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.692521,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.692521,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": "PROCEED",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-28_00-30-15/NavError_090051_312.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-28_00-30-15/images/NavError_090051_312.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.69276,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.69276,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": "PROCEED",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    },
+    "real/session/2026-10-28_00-30-15/NavError_090102_906.png": {
+      "source": "real_session",
+      "origin": "logs/2026-10-28_00-30-15/images/NavError_090102_906.png",
+      "fixture_template": null,
+      "expected_page": null,
+      "expected_score": 0.691955,
+      "expected_threshold": 0.85,
+      "expected_matched": false,
+      "top_page": "活动页面",
+      "top_score": 0.691955,
+      "top_threshold": 0.85,
+      "top_matched": false,
+      "combat_phase": "PROCEED",
+      "shape": [
+        720,
+        1280,
+        3
+      ]
+    }
+  }
+}

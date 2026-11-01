@@ -7,6 +7,12 @@
 *.html
 *.txt
 *.json
+# 模板清单是运行时校验数据，需随源码分发
+!python/site-packages/autowsgr/image_resources/manifest.json
+# golden set 基线是测试数据，需随源码分发
+!tests/golden/expectations.json
+# AST 审计基线是测试数据，需随源码分发
+!tests/audit_click_sleep_baseline.json
 *.so
 *.dylib
 *.blob
@@ -28,6 +34,10 @@ __pycache__/
 # 排除随包分发的二进制件（OCR 模型约 30 MB、scrcpy-server.jar）
 python/site-packages/autowsgr/data/ocr/**/*.onnx
 *.jar
+
+# 排除体积较大的二进制素材：本地回归基准图与开发参考截图（源码仓库不收录）
+SCS/
+tests/golden/images/
 
 # 排除日志、缓存和临时文件
 logs/

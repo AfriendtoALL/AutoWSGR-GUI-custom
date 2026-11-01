@@ -1,0 +1,263 @@
+{
+  "source": "python/site-packages/autowsgr",
+  "totals": {
+    "clicks": 66,
+    "sleeps": 89
+  },
+  "files": {
+    "combat/actions.py": {
+      "clicks": 0,
+      "sleeps": 9
+    },
+    "combat/engine.py": {
+      "clicks": 0,
+      "sleeps": 2
+    },
+    "combat/handlers.py": {
+      "clicks": 0,
+      "sleeps": 2
+    },
+    "combat/recognizer.py": {
+      "clicks": 0,
+      "sleeps": 1
+    },
+    "context/game_context.py": {
+      "clicks": 0,
+      "sleeps": 1
+    },
+    "emulator/controller/scrcpy.py": {
+      "clicks": 0,
+      "sleeps": 20
+    },
+    "emulator/os_control/base.py": {
+      "clicks": 0,
+      "sleeps": 1
+    },
+    "ops/campaign.py": {
+      "clicks": 0,
+      "sleeps": 2
+    },
+    "ops/decisive/chapter.py": {
+      "clicks": 1,
+      "sleeps": 0
+    },
+    "ops/decisive/handlers.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ops/exercise.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ops/intensify.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ops/navigate.py": {
+      "clicks": 3,
+      "sleeps": 5
+    },
+    "ops/normal_fight.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ops/rounds.py": {
+      "clicks": 0,
+      "sleeps": 2
+    },
+    "ops/startup.py": {
+      "clicks": 0,
+      "sleeps": 7
+    },
+    "ui/bath_page/page.py": {
+      "clicks": 8,
+      "sleeps": 1
+    },
+    "ui/battle/base.py": {
+      "clicks": 1,
+      "sleeps": 0
+    },
+    "ui/battle/detection.py": {
+      "clicks": 0,
+      "sleeps": 1
+    },
+    "ui/battle/fleet_change/_alignment.py": {
+      "clicks": 0,
+      "sleeps": 5
+    },
+    "ui/battle/fleet_change/_selection.py": {
+      "clicks": 1,
+      "sleeps": 0
+    },
+    "ui/battle/repair.py": {
+      "clicks": 1,
+      "sleeps": 2
+    },
+    "ui/battle/supply.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ui/build_page.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ui/canteen_page.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ui/choose_ship_page.py": {
+      "clicks": 4,
+      "sleeps": 1
+    },
+    "ui/decisive/battle_page.py": {
+      "clicks": 10,
+      "sleeps": 0
+    },
+    "ui/decisive/fleet_ocr.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ui/decisive/legacy_fleet_change.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ui/decisive/map_controller.py": {
+      "clicks": 15,
+      "sleeps": 0
+    },
+    "ui/event/event_page.py": {
+      "clicks": 4,
+      "sleeps": 1
+    },
+    "ui/event/popups.py": {
+      "clicks": 1,
+      "sleeps": 0
+    },
+    "ui/intensify_page.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ui/intensify_snapshot_scan.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ui/intensify_workflow.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ui/live_intensify.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ui/live_target_inventory.py": {
+      "clicks": 0,
+      "sleeps": 2
+    },
+    "ui/login_page.py": {
+      "clicks": 1,
+      "sleeps": 0
+    },
+    "ui/main_page/controller.py": {
+      "clicks": 0,
+      "sleeps": 1
+    },
+    "ui/main_page/event_nav.py": {
+      "clicks": 1,
+      "sleeps": 2
+    },
+    "ui/main_page/overlays.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ui/map/base.py": {
+      "clicks": 1,
+      "sleeps": 0
+    },
+    "ui/map/panels/campaign.py": {
+      "clicks": 0,
+      "sleeps": 2
+    },
+    "ui/map/panels/decisive.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ui/map/panels/exercise.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ui/map/panels/expedition.py": {
+      "clicks": 0,
+      "sleeps": 1
+    },
+    "ui/map/panels/sortie.py": {
+      "clicks": 1,
+      "sleeps": 4
+    },
+    "ui/material_first_intensify.py": {
+      "clicks": 0,
+      "sleeps": 0
+    },
+    "ui/material_inventory_scanner.py": {
+      "clicks": 0,
+      "sleeps": 4
+    },
+    "ui/mission_page/page.py": {
+      "clicks": 4,
+      "sleeps": 2
+    },
+    "ui/sidebar_page.py": {
+      "clicks": 2,
+      "sleeps": 2
+    },
+    "ui/start_screen_page.py": {
+      "clicks": 1,
+      "sleeps": 1
+    },
+    "ui/substate.py": {
+      "clicks": 1,
+      "sleeps": 0
+    },
+    "ui/target_inventory_scanner.py": {
+      "clicks": 0,
+      "sleeps": 2
+    },
+    "ui/utils/navigation.py": {
+      "clicks": 3,
+      "sleeps": 3
+    }
+  },
+  "must_decrease": [],
+  "must_not_increase": [
+    "ops/exercise.py",
+    "ops/intensify.py",
+    "ops/normal_fight.py",
+    "ui/bath_page/page.py",
+    "ui/battle/base.py",
+    "ui/battle/supply.py",
+    "ui/build_page.py",
+    "ui/canteen_page.py",
+    "ui/choose_ship_page.py",
+    "ui/decisive/battle_page.py",
+    "ui/decisive/fleet_ocr.py",
+    "ui/decisive/legacy_fleet_change.py",
+    "ui/decisive/map_controller.py",
+    "ui/event/event_page.py",
+    "ui/event/popups.py",
+    "ui/intensify_page.py",
+    "ui/intensify_snapshot_scan.py",
+    "ui/intensify_workflow.py",
+    "ui/live_intensify.py",
+    "ui/main_page/event_nav.py",
+    "ui/main_page/overlays.py",
+    "ui/map/base.py",
+    "ui/map/panels/campaign.py",
+    "ui/map/panels/decisive.py",
+    "ui/map/panels/exercise.py",
+    "ui/map/panels/expedition.py",
+    "ui/map/panels/sortie.py",
+    "ui/material_first_intensify.py",
+    "ui/mission_page/page.py",
+    "ui/substate.py",
+    "ui/utils/navigation.py"
+  ]
+}
