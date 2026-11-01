@@ -1,0 +1,6127 @@
+module.exports = [
+  {
+    id: 1,
+    name: "\u80E1\u5FB7",
+    nation: "\u82F1\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 1,
+    name: "\u5F17\u5170\u5FB7\u5C14",
+    nation: "\u6CD5\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 2,
+    name: "\u6276\u6851",
+    nation: "\u65E5\u672C",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 3,
+    name: "\u5C71\u57CE",
+    nation: "\u65E5\u672C",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 4,
+    name: "\u4F0A\u52BF",
+    nation: "\u65E5\u672C",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 5,
+    name: "\u65E5\u5411",
+    nation: "\u65E5\u672C",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 6,
+    name: "\u4FFE\u65AF\u9EA6",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 7,
+    name: "\u63D0\u5C14\u6BD4\u8328",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 8,
+    name: "\u7EB3\u5C14\u900A",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 9,
+    name: "\u7F57\u5FB7\u5C3C",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 10,
+    name: "\u5A01\u5C14\u58EB\u4EB2\u738B",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 11,
+    name: "\u5185\u534E\u8FBE",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 12,
+    name: "\u4FC4\u514B\u62C9\u8377\u9A6C",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 13,
+    name: "\u5B89\u5FB7\u70C8\u4E9A\xB7\u591A\u5229\u4E9A",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 13,
+    name: "\u5341\u4E09\u53F7\u6218\u8230",
+    nation: "\u65E5\u672C",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 14,
+    name: "\u91D1\u521A",
+    nation: "\u65E5\u672C",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 15,
+    name: "\u6BD4\u777F",
+    nation: "\u65E5\u672C",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 16,
+    name: "\u699B\u540D",
+    nation: "\u65E5\u672C",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 17,
+    name: "\u96FE\u5C9B",
+    nation: "\u65E5\u672C",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 18,
+    name: "\u58F0\u671B",
+    nation: "\u82F1\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 19,
+    name: "\u53CD\u51FB",
+    nation: "\u82F1\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 20,
+    name: "\u963F\u62C9\u65AF\u52A0",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 21,
+    name: "\u5173\u5C9B",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 22,
+    name: "\u8D64\u57CE",
+    nation: "\u65E5\u672C",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 23,
+    name: "\u52A0\u8D3A",
+    nation: "\u65E5\u672C",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 24,
+    name: "\u7965\u51E4",
+    nation: "\u65E5\u672C",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 25,
+    name: "\u745E\u51E4",
+    nation: "\u65E5\u672C",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 26,
+    name: "\u767E\u773C\u5DE8\u4EBA",
+    nation: "\u82F1\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 27,
+    name: "\u5170\u5229",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 28,
+    name: "\u7A81\u51FB\u8005",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 29,
+    name: "\u5217\u514B\u661F\u6566(CV-2)",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 30,
+    name: "\u8428\u62C9\u6258\u52A0",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 31,
+    name: "\u5927\u9EC4\u8702",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 32,
+    name: "\u9AD8\u96C4",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 33,
+    name: "\u7231\u5B95",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 34,
+    name: "\u6469\u8036",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 35,
+    name: "\u9E1F\u6D77",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 36,
+    name: "\u5E0C\u4F69\u5C14\u6D77\u519B\u4E0A\u5C06",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 37,
+    name: "\u5E03\u5415\u6B47\u5C14(\u91CD\u5DE1\u6D0B\u8230)",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 38,
+    name: "\u6B27\u6839\u4EB2\u738B",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 39,
+    name: "\u5A01\u5947\u5854",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 40,
+    name: "\u6606\u897F",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 41,
+    name: "\u5929\u9F99",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 42,
+    name: "\u9F99\u7530",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 43,
+    name: "\u5317\u4E0A",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 44,
+    name: "\u5927\u4E95",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 45,
+    name: "\u4E94\u5341\u94C3",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 46,
+    name: "\u5915\u5F20",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 47,
+    name: "\u67EF\u5C3C\u65AF\u5821",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 48,
+    name: "\u5361\u5C14\u65AF\u9C81\u5384",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 49,
+    name: "\u79D1\u9686",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 50,
+    name: "\u5929\u72FC\u661F",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 51,
+    name: "\u6797\u4ED9",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 52,
+    name: "\u52A0\u62C9\u8482\u4E9A",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 53,
+    name: "\u4F69\u5185\u6D1B\u73C0",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 54,
+    name: "\u66D9\u5149\u5973\u795E",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 55,
+    name: "\u5965\u9A6C\u54C8",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 56,
+    name: "\u4E9A\u7279\u5170\u5927",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 57,
+    name: "\u6731\u8BFA(CL-52)",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 58,
+    name: "\u5E03\u9C81\u514B\u6797",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 59,
+    name: "\u6D77\u4F26\u5A1C",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 60,
+    name: "\u5B81\u6D77",
+    nation: "\u4E2D\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 61,
+    name: "\u5E73\u6D77",
+    nation: "\u4E2D\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 62,
+    name: "\u7F57\u4F2F\u8328",
+    nation: "\u82F1\u56FD",
+    ship_type: "bm",
+    is_retrofit: false
+  },
+  {
+    id: 63,
+    name: "\u963F\u8D1D\u514B\u9686\u6BD4",
+    nation: "\u82F1\u56FD",
+    ship_type: "bm",
+    is_retrofit: false
+  },
+  {
+    id: 64,
+    name: "\u5439\u96EA",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 65,
+    name: "\u767D\u96EA",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 66,
+    name: "\u521D\u96EA",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 67,
+    name: "\u6DF1\u96EA",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 68,
+    name: "\u6653",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 69,
+    name: "\u54CD",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 70,
+    name: "\u96F7",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 71,
+    name: "\u7535",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 72,
+    name: "\u7EEB\u6CE2",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 73,
+    name: "\u6577\u6CE2",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 74,
+    name: "Z1",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 75,
+    name: "Z16",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 76,
+    name: "Z21",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 77,
+    name: "Z22",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 78,
+    name: "Z24",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 79,
+    name: "Z28",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 80,
+    name: "Z31",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 81,
+    name: "\u7D2B\u77F3\u82F1",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 82,
+    name: "\u8424\u706B\u866B",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 83,
+    name: "\u6807\u67AA",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 84,
+    name: "\u5929\u540E",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 85,
+    name: "\u9ED1\u80CC\u8C7A",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 86,
+    name: "\u54E5\u8428\u514B\u4EBA",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 87,
+    name: "\u7231\u65AF\u57FA\u6469\u4EBA",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 88,
+    name: "\u65C1\u906E\u666E\u4EBA",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 89,
+    name: "\u5F17\u83B1\u5F7B",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 90,
+    name: "\u5361\u8F9B\u6768",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 91,
+    name: "\u5B89\u4E1C\u5C3C",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 92,
+    name: "\u5E03\u96F7\u6069",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 93,
+    name: "\u57FA\u6797",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 94,
+    name: "\u57FA\u963F\u7279",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 95,
+    name: "\u5F17\u5170\u514B\xB7\u8BFA\u514B\u65AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 96,
+    name: "\u9C8D\u5C14",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 97,
+    name: "\u679C\u6562",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 98,
+    name: "\u6C83\u514B\u5170",
+    nation: "\u6CD5\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 99,
+    name: "\u7A7A\u60F3",
+    nation: "\u6CD5\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 100,
+    name: "\u72EE(\u6218\u5217\u8230)",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 101,
+    name: "\u957F\u95E8",
+    nation: "\u65E5\u672C",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 102,
+    name: "\u9646\u5965",
+    nation: "\u65E5\u672C",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 103,
+    name: "\u7687\u5BB6\u6A61\u6811",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 104,
+    name: "\u538C\u6218",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 105,
+    name: "\u524D\u536B",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 106,
+    name: "\u7530\u7EB3\u897F",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 107,
+    name: "\u52A0\u5229\u798F\u5C3C\u4E9A",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 108,
+    name: "\u79D1\u7F57\u62C9\u591A",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 109,
+    name: "\u9A6C\u91CC\u5170",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 110,
+    name: "\u897F\u5F17\u5409\u5C3C\u4E9A",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 111,
+    name: "\u534E\u76DB\u987F",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 112,
+    name: "\u7EF4\u6258\u91CC\u5965\xB7\u7EF4\u5185\u6258",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 113,
+    name: "\u9ECE\u585E\u7559",
+    nation: "\u6CD5\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 114,
+    name: "\u6C99\u6069\u970D\u65AF\u7279",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 115,
+    name: "\u683C\u5948\u68EE\u7459",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 117,
+    name: "\u5927\u51E4",
+    nation: "\u65E5\u672C",
+    ship_type: "av",
+    is_retrofit: false
+  },
+  {
+    id: 118,
+    name: "\u9F50\u67CF\u6797\u4F2F\u7235",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 119,
+    name: "\u7687\u5BB6\u65B9\u821F(91)",
+    nation: "\u82F1\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 120,
+    name: "\u7EA6\u514B\u57CE",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 121,
+    name: "\u4F01\u4E1A",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 122,
+    name: "\u9F99\u9AA7",
+    nation: "\u65E5\u672C",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 123,
+    name: "\u535A\u683C",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 124,
+    name: "\u8FFD\u8D76\u8005",
+    nation: "\u82F1\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 125,
+    name: "\u5DE8\u50CF",
+    nation: "\u82F1\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 126,
+    name: "\u666E\u6797\u65AF\u987F",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 127,
+    name: "\u72EC\u89D2\u517D",
+    nation: "\u82F1\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 128,
+    name: "\u5FB7\u610F\u5FD7(\u88C5\u7532\u8230)",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 129,
+    name: "\u820D\u5C14\u6D77\u519B\u4E0A\u5C06",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 130,
+    name: "\u65AF\u4F69\u4F2F\u7235\u6D77\u519B\u4E0A\u5C06",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 131,
+    name: "\u53E4\u9E70",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 132,
+    name: "\u52A0\u53E4",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 133,
+    name: "\u9752\u53F6",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 134,
+    name: "\u8863\u7B20",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 135,
+    name: "\u4F26\u6566",
+    nation: "\u82F1\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 136,
+    name: "\u80AF\u7279",
+    nation: "\u82F1\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 137,
+    name: "\u6CE2\u7279\u5170",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 138,
+    name: "\u5370\u7B2C\u5B89\u7EB3\u6CE2\u5229\u65AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 139,
+    name: "\u5F6D\u8428\u79D1\u62C9",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 140,
+    name: "\u76D0\u6E56\u57CE",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 141,
+    name: "\u5317\u5B89\u666E\u987F",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 142,
+    name: "\u4F11\u65AF\u987F",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 143,
+    name: "\u65B0\u5965\u5C14\u826F",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 144,
+    name: "\u57FA\u6D1B\u592B",
+    nation: "\u82CF\u8054",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 145,
+    name: "\u5DDD\u5185",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 146,
+    name: "\u795E\u901A",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 147,
+    name: "\u90A3\u73C2",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 148,
+    name: "M\u8BA1\u5212",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 149,
+    name: "\u57C3\u59C6\u767B",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 150,
+    name: "\u7FE1\u7FE0",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 151,
+    name: "\u8FDB\u53D6",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 152,
+    name: "\u7231\u4E01\u5821",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 153,
+    name: "\u8D1D\u5C14\u6CD5\u65AF\u7279",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 154,
+    name: "\u52C7\u6562",
+    nation: "\u82F1\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 155,
+    name: "\u5149\u8363(\u5927\u578B\u8F7B\u5DE1\u6D0B\u8230)",
+    nation: "\u82F1\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 156,
+    name: "\u66B4\u6012",
+    nation: "\u82F1\u56FD",
+    ship_type: "bbv",
+    is_retrofit: false
+  },
+  {
+    id: 157,
+    name: "\u5723\u5730\u4E9A\u54E5",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 158,
+    name: "\u5723\u80E1\u5B89",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 159,
+    name: "\u7D22\u83AB\u65AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 160,
+    name: "\u6469\u5C14\u66FC\u65AF\u514B",
+    nation: "\u82CF\u8054",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 161,
+    name: "\u5FB7\xB7\u9C81\u4F0A\u7279",
+    nation: "\u8377\u5170",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 162,
+    name: "\u9038\u4ED9",
+    nation: "\u4E2D\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 163,
+    name: "\u7EF4\u90A3\u83AB\u4F9D\u5AE9",
+    nation: "\u82AC\u5170",
+    ship_type: "bm",
+    is_retrofit: false
+  },
+  {
+    id: 164,
+    name: "\u79CB\u6708",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 165,
+    name: "\u51C9\u6708",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 166,
+    name: "\u9633\u708E",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 167,
+    name: "\u4E0D\u77E5\u706B",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 168,
+    name: "\u9ED1\u6F6E",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 169,
+    name: "\u96EA\u98CE",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 170,
+    name: "Z3",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 171,
+    name: "Z46",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 172,
+    name: "\u70ED\u5FC3",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 173,
+    name: "\u963F\u5361\u53F8\u5854",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 174,
+    name: "\u7D22\u739B\u96F7\u5179",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 175,
+    name: "\u7EF4\u7EB3\u65AF",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 176,
+    name: "\u519B\u56E2",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 177,
+    name: "\u6492\u5207\u5C14",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 178,
+    name: "\u6C99\u5229\u6587",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 179,
+    name: "\u897F\u683C\u65AF\u6BD4",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 180,
+    name: "\u5965\u73ED\u519C",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 181,
+    name: "\u5A01\u5EC9\xB7D\xB7\u6CE2\u7279",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 182,
+    name: "\u6CE2\u7279",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 183,
+    name: "\u62C9\u83F2(DD-724)",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 184,
+    name: "\u62C9\u83F2(DD-459)",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 185,
+    name: "\u5361\u7C73\u5951\u4E9A\xB7\u5185\u62C9",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 186,
+    name: "\u963F\u7EF4\u57C3\u5C14",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 187,
+    name: "\u5B89\u4E1C\u5C3C\u5965\xB7\u8FBE\u8BFA\u5229",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 188,
+    name: "\u4E4C\u6208\u91CC\u5C3C\xB7\u7EF4\u74E6\u5C14\u8FEA",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 189,
+    name: "\u5929\u57CE",
+    nation: "\u65E5\u672C",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 190,
+    name: "\u571F\u4F50",
+    nation: "\u65E5\u672C",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 191,
+    name: "A150",
+    nation: "\u65E5\u672C",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 192,
+    name: "\u5854\u4EC0\u5E72",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 193,
+    name: "\u6069\u683C\u65AF",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 194,
+    name: "\u5927\u9752\u82B1\u9C7C",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 195,
+    name: "\u5C04\u6C34\u9C7C",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 196,
+    name: "M1",
+    nation: "\u82F1\u56FD",
+    ship_type: "sc",
+    is_retrofit: false
+  },
+  {
+    id: 197,
+    name: "U-47",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 198,
+    name: "U-505",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 199,
+    name: "\u7D6E\u5E93\u592B",
+    nation: "\u6CD5\u56FD",
+    ship_type: "sc",
+    is_retrofit: false
+  },
+  {
+    id: 200,
+    name: "\u5174\u767B\u5821",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 201,
+    name: "V\u65B9\u6848",
+    nation: "\u5965\u5308\u5E1D\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 202,
+    name: "\u4F0A\u5229\u8BFA\u4F0A",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 203,
+    name: "\u4F0A\u4E3D\u838E\u767D\u5973\u738B",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 205,
+    name: "\u7EA6\u514B\u516C\u7235",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 206,
+    name: "\u5317\u5361\u7F57\u6765\u7EB3",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 207,
+    name: "\u5357\u8FBE\u79D1\u4ED6(BB-57)",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 208,
+    name: "\u9A6C\u8428\u8BF8\u585E",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 209,
+    name: "\u5BC6\u82CF\u91CC",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 210,
+    name: "\u8863\u963F\u534E",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 211,
+    name: "\u5361\u7EA6\xB7\u675C\u4F0A\u91CC\u5965",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 212,
+    name: "\u5229\u6258\u91CC\u5965",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 213,
+    name: "\u7F57\u9A6C",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 214,
+    name: "\u82CF\u8054",
+    nation: "\u82CF\u8054",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 215,
+    name: "\u739B\u4E3D\u4E9A\u7687\u540E",
+    nation: "\u6C99\u4FC4",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 216,
+    name: "\u6566\u523B\u5C14\u514B",
+    nation: "\u6CD5\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 217,
+    name: "\u65AF\u7279\u62C9\u65AF\u5821",
+    nation: "\u6CD5\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 218,
+    name: "\u53E4\u65AF\u5854\u592B\u4E94\u4E16",
+    nation: "\u745E\u5178",
+    ship_type: "bm",
+    is_retrofit: false
+  },
+  {
+    id: 219,
+    name: "\u745E\u9E64",
+    nation: "\u65E5\u672C",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 220,
+    name: "\u7FD4\u9E64",
+    nation: "\u65E5\u672C",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 221,
+    name: "\u98DE\u9F99",
+    nation: "\u65E5\u672C",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 222,
+    name: "\u82CD\u9F99",
+    nation: "\u65E5\u672C",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 223,
+    name: "\u4FE1\u6D53",
+    nation: "\u65E5\u672C",
+    ship_type: "av",
+    is_retrofit: false
+  },
+  {
+    id: 224,
+    name: "\u53EF\u754F",
+    nation: "\u82F1\u56FD",
+    ship_type: "av",
+    is_retrofit: false
+  },
+  {
+    id: 225,
+    name: "\u9EC4\u8702(CV-7)",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 226,
+    name: "\u57C3\u585E\u514B\u65AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 227,
+    name: "\u98DE\u9E70",
+    nation: "\u65E5\u672C",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 228,
+    name: "\u96BC\u9E70",
+    nation: "\u65E5\u672C",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 229,
+    name: "\u51E4\u7FD4",
+    nation: "\u65E5\u672C",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 230,
+    name: "\u7ADE\u6280\u795E",
+    nation: "\u82F1\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 231,
+    name: "\u4F26\u9053\u592B",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 232,
+    name: "\u8D1D\u4E9A\u6069",
+    nation: "\u6CD5\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 233,
+    name: "\u6700\u4E0A",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 234,
+    name: "\u4E09\u9688",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 235,
+    name: "\u94C3\u8C37",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 236,
+    name: "\u718A\u91CE",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 237,
+    name: "\u8428\u798F\u514B",
+    nation: "\u82F1\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 238,
+    name: "\u7EA6\u514B",
+    nation: "\u82F1\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 239,
+    name: "\u57C3\u514B\u8D5B\u7279",
+    nation: "\u82F1\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 240,
+    name: "\u65E7\u91D1\u5C71",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 241,
+    name: "\u5DF4\u5C14\u7684\u6469",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 242,
+    name: "\u5361\u5FB7",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 243,
+    name: "\u5FB7\u6885\u56E0",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 244,
+    name: "\u7075\u654F",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 245,
+    name: "\u624E\u62C9",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 246,
+    name: "\u963F\u5C14\u53CA\u5229\u4E9A",
+    nation: "\u6CD5\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 247,
+    name: "\u9999\u53D6",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 248,
+    name: "\u5927\u6DC0",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 249,
+    name: "\u83B1\u6BD4\u9521",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 250,
+    name: "\u4F0D\u65AF\u7279",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 251,
+    name: "\u5965\u514B\u5170",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 252,
+    name: "\u514B\u5229\u592B\u5170",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 253,
+    name: "\u5E94\u745E",
+    nation: "\u4E2D\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 254,
+    name: "\u8087\u548C",
+    nation: "\u4E2D\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 255,
+    name: "\u52A0\u7F57\u6797",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 256,
+    name: "\u5E03\u83B1\u514B",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 257,
+    name: "\u963F\u5C14\u6BD4\u7FC1",
+    nation: "\u82F1\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 258,
+    name: "\u9AD8\u6CE2",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 259,
+    name: "\u541E\u6B66\u91CC",
+    nation: "\u6CF0\u56FD",
+    ship_type: "bm",
+    is_retrofit: false
+  },
+  {
+    id: 260,
+    name: "\u7766\u6708",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 261,
+    name: "\u767D\u9732",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 262,
+    name: "\u65F6\u96E8",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 263,
+    name: "\u6751\u96E8",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 264,
+    name: "\u5915\u7ACB",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 265,
+    name: "\u5C9A",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 266,
+    name: "\u521D\u590F",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 267,
+    name: "\u5C9B\u98CE(\u5C9B\u98CE\u578B\u9A71\u9010\u8230)",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 268,
+    name: "\u5CF0\u98CE",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 269,
+    name: "Z17",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 270,
+    name: "Z18",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 271,
+    name: "\u5438\u8840\u9B3C",
+    nation: "\u6FB3\u5927\u5229\u4E9A",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 272,
+    name: "\u6D77\u8FBE\u4EBA",
+    nation: "\u52A0\u62FF\u5927",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 273,
+    name: "\u8D5B\u5C14\u5F17\u91CC\u5409",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 274,
+    name: "X1",
+    nation: "\u82F1\u56FD",
+    ship_type: "sc",
+    is_retrofit: false
+  },
+  {
+    id: 275,
+    name: "\u5EB7\u5F17\u65AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 276,
+    name: "\u6234\u68EE",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 277,
+    name: "\u514B\u62C9\u514B\u65AF\u987F",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 278,
+    name: "\u970D\u57C3\u5C14",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 279,
+    name: "\u585E\u7F2A\u5C14\xB7B\xB7\u7F57\u4F2F\u8328",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 280,
+    name: "\u7EA6\u7FF0\u65AF\u987F",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 281,
+    name: "\u96F7\u9E23",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 282,
+    name: "\u6F5C\u7532",
+    nation: "\u4E2D\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 283,
+    name: "\u6F5C\u4E59",
+    nation: "\u4E2D\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 284,
+    name: "\u5E03\u5415\u6B47\u5C14(\u88C5\u7532\u5DE1\u6D0B\u8230)",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 285,
+    name: "85\u5DE5\u7A0B",
+    nation: "\u82CF\u8054",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 286,
+    name: "\u4E0D\u6320(\u6218\u5217\u5DE1\u6D0B\u8230)",
+    nation: "\u82F1\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 287,
+    name: "\u9E70\u6F6D",
+    nation: "\u4E2D\u56FD",
+    ship_type: "aadg",
+    is_retrofit: false
+  },
+  {
+    id: 288,
+    name: "U-552",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 289,
+    name: "U-81",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 290,
+    name: "U-96",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 291,
+    name: "U-2540",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 292,
+    name: "U-156",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 293,
+    name: "U-1206",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 294,
+    name: "\u523A\u5C3E\u9C7C",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 295,
+    name: "S-56",
+    nation: "\u82CF\u8054",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 296,
+    name: "\u8D1D\u52B3\u4F0D\u5FB7",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 297,
+    name: "\u4E54\u6CBB\xB7\u57C3\u592B\u6D1B\u592B",
+    nation: "\u5E0C\u814A",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 298,
+    name: "\u82CF\u8D6B\u5DF4\u6258\u5C14",
+    nation: "\u8499\u53E4",
+    ship_type: "ap",
+    is_retrofit: false
+  },
+  {
+    id: 299,
+    name: "\u8BA9\u5DF4\u5C14",
+    nation: "\u6CD5\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 300,
+    name: "\u9A6C\u8033\u4ED6",
+    nation: "\u82F1\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 301,
+    name: "\u9A6C\u6C49",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 302,
+    name: "\u5723\u8DEF\u6613\u65AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 303,
+    name: "\u5965\u4E01",
+    nation: "\u51B0\u5C9B",
+    ship_type: "ap",
+    is_retrofit: false
+  },
+  {
+    id: 304,
+    name: "\u5723\u5973\u8D1E\u5FB7",
+    nation: "\u6CD5\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 305,
+    name: "\u82F1\u738B\u4E54\u6CBB\u4E94\u4E16",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 306,
+    name: "\u5DF4\u592B\u52D2\u5C14",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 307,
+    name: "\u5973\u7076\u795E",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ap",
+    is_retrofit: false
+  },
+  {
+    id: 308,
+    name: "\u54E5\u7279\u5170",
+    nation: "\u745E\u5178",
+    ship_type: "cav",
+    is_retrofit: false
+  },
+  {
+    id: 309,
+    name: "\u8BFA\u592B\u54E5\u7F57\u5FB7",
+    nation: "\u6C99\u4FC4",
+    ship_type: "bm",
+    is_retrofit: false
+  },
+  {
+    id: 310,
+    name: "\u5E93\u6B23",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 311,
+    name: "\u74DC\u8FBE\u5361\u7EB3\u5C14",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 312,
+    name: "\u7EBD\u4F26\u5821",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 313,
+    name: "\u963F\u8D3E\u514B\u65AF",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 314,
+    name: "\u54E5\u7279\u96C4\u72EE",
+    nation: "\u745E\u5178",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 315,
+    name: "\u5BB5\u6708",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 316,
+    name: "\u660E\u65AF\u514B",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 317,
+    name: "M2",
+    nation: "\u82F1\u56FD",
+    ship_type: "sc",
+    is_retrofit: false
+  },
+  {
+    id: 318,
+    name: "\u6BDB\u5947",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 319,
+    name: "\u4E0D\u6320(\u88C5\u7532\u822A\u6BCD)",
+    nation: "\u82F1\u56FD",
+    ship_type: "av",
+    is_retrofit: false
+  },
+  {
+    id: 320,
+    name: "\u9E5E\u9E70",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 321,
+    name: "\u8D39\u62C9\u8FEAD",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 322,
+    name: "\u5E0C\u5C14\u66FC",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 323,
+    name: "\u57FA\u8F85",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 324,
+    name: "\u5854\u65AF\u5361\u5362\u8428",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 325,
+    name: "\u5217\u514B\u661F\u6566(CV-16)",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 326,
+    name: "\u8BFA\u798F\u514B(78)",
+    nation: "\u82F1\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 327,
+    name: "\u65AF\u7279\u96F7\u7279",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 328,
+    name: "\u5999\u9AD8",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 329,
+    name: "\u5965\u53E4\u65AF\u5854",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 330,
+    name: "\u536B\u58EB",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 331,
+    name: "\u65E0\u6BD4",
+    nation: "\u82F1\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 332,
+    name: "\u795E\u9E70",
+    nation: "\u65E5\u672C",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 333,
+    name: "\u5FB7\u683C\u62C9\u65AF",
+    nation: "\u6CD5\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 334,
+    name: "\u4E0D\u60E7(\u9A71\u9010\u8230)",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 335,
+    name: "\u4F0F\u5C14\u5854",
+    nation: "\u6CD5\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 336,
+    name: "\u7AF9",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 337,
+    name: "\u4F1F\u5927\u7684\u5E9E\u8D1D",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 338,
+    name: "\u5929\u9E70",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "av",
+    is_retrofit: false
+  },
+  {
+    id: 339,
+    name: "\u5E1D\u56FD",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 340,
+    name: "\u6CE2\u5C14\u624E\u8BFA",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 341,
+    name: "\u9F99\u9A91\u5175",
+    nation: "\u6CE2\u5170",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 342,
+    name: "\u6C5F\u539F",
+    nation: "\u97E9\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 343,
+    name: "\u851A\u5C71",
+    nation: "\u97E9\u56FD",
+    ship_type: "asdg",
+    is_retrofit: false
+  },
+  {
+    id: 344,
+    name: "\u5FE0\u6B66",
+    nation: "\u97E9\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 345,
+    name: "\u5A01\u65AF\u5EB7\u661F",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 346,
+    name: "\u8C22\u83F2\u5C14\u5FB7",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 347,
+    name: "\u8499\u5F7C\u5229\u57C3",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 348,
+    name: "\u4E39\u4F5B",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 349,
+    name: "\u521D\u6708",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 350,
+    name: "\u83F2\u5C14\u666E\u65AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 351,
+    name: "U-1405",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 352,
+    name: "\u83AB\u65AF\u79D1",
+    nation: "\u82CF\u8054",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 353,
+    name: "\u65AF\u7EF4\u5C14\u5FB7\u6D1B\u592B",
+    nation: "\u82CF\u8054",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 354,
+    name: "\u963F\u5C14\u8D1D\u6258\xB7\u8FEA\xB7\u6731\u6851\u8BFA",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 355,
+    name: "\u8054\u5408\u529B\u91CF",
+    nation: "\u5965\u5308\u5E1D\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 356,
+    name: "\u7231\u4E3D",
+    nation: "\u5E0C\u814A",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 357,
+    name: "\u7FBD\u9ED1",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 358,
+    name: "\u5929\u6D25\u98CE",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 359,
+    name: "\u5415-34",
+    nation: "\u65E5\u672C",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 360,
+    name: "\u864E(\u8F7B\u5DE1\u6D0B\u8230)",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 361,
+    name: "K1",
+    nation: "\u82F1\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 362,
+    name: "\u661F\u5EA7",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 363,
+    name: "\u70BD\u70ED",
+    nation: "\u82CF\u8054",
+    ship_type: "asdg",
+    is_retrofit: false
+  },
+  {
+    id: 364,
+    name: "\u52A0\u7EB3\u91CC\u4E9A\u65AF",
+    nation: "\u897F\u73ED\u7259",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 365,
+    name: "\u95E8\u5FB7\u65AF\xB7\u52AA\u6D85\u65AF",
+    nation: "\u897F\u73ED\u7259",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 366,
+    name: "\u9E66\u9E49\u87BA",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 367,
+    name: "\u4E4C\u5C14\u91CC\u5E0C\xB7\u51AF\xB7\u80E1\u6ED5",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 368,
+    name: "\u585E\u5FB7\u5229\u8328",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 369,
+    name: "\u514B\u83B1\u592B\u52CB\u7235",
+    nation: "\u82F1\u56FD",
+    ship_type: "bm",
+    is_retrofit: false
+  },
+  {
+    id: 370,
+    name: "\u5149\u8F89",
+    nation: "\u82F1\u56FD",
+    ship_type: "av",
+    is_retrofit: false
+  },
+  {
+    id: 371,
+    name: "\u6D77\u738B\u661F",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 372,
+    name: "\u65E9\u6625",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 373,
+    name: "\u83B1\u6602\u7EB3\u591A\xB7\u8FBE\xB7\u82AC\u5947",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 374,
+    name: "\u6C49\u8003\u514B",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 375,
+    name: "\u5723\u54C8\u8F9B\u6258",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 376,
+    name: "\u57C3\u5FB7\u52A0\xB7\u5C45\u5185",
+    nation: "\u6CD5\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 377,
+    name: "\u6728\u66FE",
+    nation: "\u65E5\u672C",
+    ship_type: "clt",
+    is_retrofit: false
+  },
+  {
+    id: 378,
+    name: "\u65AF\u666E\u5229\u7279",
+    nation: "\u5357\u65AF\u62C9\u592B",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 379,
+    name: "\u54E5\u4F26\u6BD4\u4E9A",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 380,
+    name: "\u5723\u4E54\u6CBB",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 381,
+    name: "\u5370\u7B2C\u5B89\u7EB3",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 382,
+    name: "\u574E\u4F2F\u5170",
+    nation: "\u82F1\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 383,
+    name: "\u5965\u65AF\u5854\u516C\u7235",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 384,
+    name: "\u6CD5\u8FEA\u5E03\u9C81\u8BFA",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "bm",
+    is_retrofit: false
+  },
+  {
+    id: 385,
+    name: "S113",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 386,
+    name: "\u8389\u5B89\u5915",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 387,
+    name: "\u6D77\u573B",
+    nation: "\u4E2D\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 388,
+    name: "\u7EBD\u6CE2\u7279\u7EBD\u65AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 389,
+    name: "\u7559\u91CC\u514B",
+    nation: "\u6C99\u4FC4",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 390,
+    name: "\u5E93\u56FE\u4F50\u592B",
+    nation: "\u82CF\u8054",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 391,
+    name: "\u67E5\u5C14\u65AF\xB7F\xB7\u4E9A\u5F53\u65AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "aadg",
+    is_retrofit: false
+  },
+  {
+    id: 392,
+    name: "\u5929\u96FE",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 393,
+    name: "\u67E5\u5C14\u65AF\xB7\u5965\u65AF\u672C",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 394,
+    name: "\u6CF0\u52D2",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 395,
+    name: "\u95EA\u7535",
+    nation: "\u6CE2\u5170",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 396,
+    name: "\u65B0\u58A8\u897F\u54E5",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 397,
+    name: "\u65AF\u5927\u6797\u683C\u52D2",
+    nation: "\u82CF\u8054",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 398,
+    name: "\u5FB7\u91CC",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 399,
+    name: "\u963F\u5E03\u9C81\u5947\u516C\u7235",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 400,
+    name: "\u4E03\u7701\u8054\u76DF",
+    nation: "\u8377\u5170",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 401,
+    name: "\u80C6\u5927",
+    nation: "\u82CF\u8054",
+    ship_type: "asdg",
+    is_retrofit: false
+  },
+  {
+    id: 402,
+    name: "U-35",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 403,
+    name: "\u683C\u62C9\u6469\u6839",
+    nation: "\u82F1\u56FD",
+    ship_type: "aadg",
+    is_retrofit: false
+  },
+  {
+    id: 404,
+    name: "\u6028\u4EC7",
+    nation: "\u82F1\u56FD",
+    ship_type: "av",
+    is_retrofit: false
+  },
+  {
+    id: 405,
+    name: "\u4E54\u6CBB\xB7\u83B1\u683C",
+    nation: "\u6CD5\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 406,
+    name: "\u54C8\u66FC",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 407,
+    name: "\u5415\u7279\u664F\u65AF",
+    nation: "\u5FB7\u56FD",
+    ship_type: "aadg",
+    is_retrofit: false
+  },
+  {
+    id: 408,
+    name: "\u9C83\u9C7C",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 409,
+    name: "\u65B0\u6CFD\u897F",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 410,
+    name: "\u8428\u52D2\u59C6",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 411,
+    name: "\u9EDB\u6735",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 412,
+    name: "\u582A\u57F9\u62C9",
+    nation: "\u6FB3\u5927\u5229\u4E9A",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 413,
+    name: "\u52A0\u91CC\u6CE2\u7B2C",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 414,
+    name: "\u51EF\u5229",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 415,
+    name: "\u82F1\u683C\u5170",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 416,
+    name: "47\u5DE5\u7A0B",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 417,
+    name: "\u53EF\u6016",
+    nation: "\u6CD5\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 418,
+    name: "\u963F\u91D1\u5E93\u5C14",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 419,
+    name: "\u6851\u63D0",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 420,
+    name: "\u4E9A\u5C14\u53E4\u6C34\u624B",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 421,
+    name: "\u8428\u51E1\u7EB3",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 422,
+    name: "\u51E4\u51F0\u57CE",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 423,
+    name: "\u71D5\u516B\u54E5",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 424,
+    name: "\u8482\u9ED8\u66FC",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 425,
+    name: "\u53F2\u5BC6\u65AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 426,
+    name: "\u5F7C\u5F97\xB7\u65BD\u7279\u62C9\u585E\u5C14",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 427,
+    name: "\u585E\u73ED",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 428,
+    name: "\u5C3C\u53E4\u62C9\u65AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 429,
+    name: "\u9A6C\u4F0A\xB7\u5E03\u96F7\u6CFD",
+    nation: "\u6CD5\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 430,
+    name: "\u6377\u5C14\u4EFB\u65AF\u57FA",
+    nation: "\u82CF\u8054",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 431,
+    name: "\u4EC0\u7F57\u666E\u90E1",
+    nation: "\u82F1\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 432,
+    name: "\u6CE2\u58EB\u987F",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 433,
+    name: "\u63D0\u5EB7\u5FB7\u7F57\u52A0",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 434,
+    name: "\u4EA8\u5EF7\u987F",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 435,
+    name: "B65",
+    nation: "\u65E5\u672C",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 437,
+    name: "\u978D\u9A6C",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 438,
+    name: "\u6885\u80AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 439,
+    name: "\u51AC\u6708",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 440,
+    name: "\u963F\u5C14\u7EF4\u585E\xB7\u8FBE\u83AB\u65AF\u6258",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 441,
+    name: "\u6258\u6208",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ap",
+    is_retrofit: false
+  },
+  {
+    id: 442,
+    name: "\u91CC\u6602",
+    nation: "\u6CD5\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 443,
+    name: "\u963F\u8D3A\u91CE",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 444,
+    name: "\u7EA2\u8272\u9AD8\u52A0\u7D22",
+    nation: "\u82CF\u8054",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 445,
+    name: "\u54C8\u5C14\u798F\u5FB7",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 446,
+    name: "\u72EE(\u6218\u5217\u5DE1\u6D0B\u8230)",
+    nation: "\u82F1\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 447,
+    name: "\u8FEA\u51EF\u7EB3",
+    nation: "\u6CD5\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 449,
+    name: "\u83AB\u52A0\u591A\u5C14",
+    nation: "\u6CD5\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 450,
+    name: "L20",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 451,
+    name: "\u4F0A\u5439",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 452,
+    name: "\u8428\u91CC",
+    nation: "\u82F1\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 453,
+    name: "\u91CE\u5206",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 454,
+    name: "\u5F81\u670D\u8005",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 455,
+    name: "\u7687\u5BB6\u65B9\u821F(R09)",
+    nation: "\u82F1\u56FD",
+    ship_type: "av",
+    is_retrofit: false
+  },
+  {
+    id: 456,
+    name: "\u5F7C\u5F97\u7F57\u5DF4\u752B\u6D1B\u592B\u65AF\u514B",
+    nation: "\u82CF\u8054",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 457,
+    name: "\u6F6E",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 458,
+    name: "U-14",
+    nation: "\u5965\u5308\u5E1D\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 459,
+    name: "\u5E95\u7279\u5F8B",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 460,
+    name: "\u5BBE\u5915\u6CD5\u5C3C\u4E9A",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 461,
+    name: "\u65E0\u654C",
+    nation: "\u82F1\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 462,
+    name: "\u591A\u6469",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 463,
+    name: "\u9E70",
+    nation: "\u6CE2\u5170",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 464,
+    name: "\u5357\u8FBE\u79D1\u4ED6(BB-49)",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 465,
+    name: "\u722A\u54C7",
+    nation: "\u8377\u5170",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 466,
+    name: "1939\u6218\u5217\u8230",
+    nation: "\u897F\u73ED\u7259",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 467,
+    name: "\u978D\u5C71",
+    nation: "\u4E2D\u56FD",
+    ship_type: "asdg",
+    is_retrofit: false
+  },
+  {
+    id: 468,
+    name: "\u730E\u6237\u5EA7",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 469,
+    name: "\u672C\u5B81\u987F",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 470,
+    name: "\u7518\u6BD4\u5C14\u6E7E",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 471,
+    name: "\u6B27\u7F57\u5DF4",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 472,
+    name: "\u971E\u98DE",
+    nation: "\u6CD5\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 473,
+    name: "\u963F\u975E\u5229\u52A0\u5F81\u670D\u8005\u897F\u5E87\u963F",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 474,
+    name: "72\u5DE5\u7A0B",
+    nation: "\u82CF\u8054",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 475,
+    name: "U-2511",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 476,
+    name: "\u79D1\u987F\u827E\u5C14",
+    nation: "\u8377\u5170",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 477,
+    name: "\u9A6C\u6208\u8FEA\u5C3C",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 478,
+    name: "\u963F\u65B9\u7D22\u5341\u4E09\u4E16",
+    nation: "\u897F\u73ED\u7259",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 479,
+    name: "\u6851\u666E\u68EE",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 480,
+    name: "U-459",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 481,
+    name: "\u4EC1\u6DC0",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 482,
+    name: "\u5927\u6DC0(\u82CD\u9752\u5E7B\u5F71)",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 483,
+    name: "\u80DC\u5229",
+    nation: "\u82F1\u56FD",
+    ship_type: "av",
+    is_retrofit: false
+  },
+  {
+    id: 484,
+    name: "\u5B89\u68EE",
+    nation: "\u82F1\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 485,
+    name: "\u82F1\u683C\u62C9\u59C6",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 486,
+    name: "G15",
+    nation: "\u65E5\u672C",
+    ship_type: "av",
+    is_retrofit: false
+  },
+  {
+    id: 487,
+    name: "\u4E94\u6708\u4E8C\u5341\u4E94",
+    nation: "\u963F\u6839\u5EF7",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 488,
+    name: "U-556",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 489,
+    name: "\u5386\u6218",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 490,
+    name: "\u514B\u52B3\u585E\u7EF4\u8328",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 491,
+    name: "\u590F\u4F2F\u9633",
+    nation: "\u82CF\u8054",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 492,
+    name: "\u58EE\u4E3D",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 493,
+    name: "K-21",
+    nation: "\u82CF\u8054",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 494,
+    name: "G6",
+    nation: "\u65E5\u672C",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 495,
+    name: "\u5149\u8363(\u8F7B\u5DE1\u6D0B\u8230)",
+    nation: "\u6CD5\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 496,
+    name: "\u8BFA\u798F\u514B(DL-1)",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 497,
+    name: "U-441",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 498,
+    name: "\u590D\u4EC7",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 499,
+    name: "\u514B\u91CC\u8499\u68AD",
+    nation: "\u6CD5\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 500,
+    name: "\u4F0F\u5C14\u94FF",
+    nation: "\u4E2D\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 501,
+    name: "\u62C9\u5F17\u96F7",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 502,
+    name: "\u6D4E\u5357",
+    nation: "\u4E2D\u56FD",
+    ship_type: "asdg",
+    is_retrofit: false
+  },
+  {
+    id: 503,
+    name: "T-23",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 504,
+    name: "\u8D39\u57CE",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 505,
+    name: "\u96C9",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 506,
+    name: "1938(I)",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 507,
+    name: "\u827E\u65AF\u6C83\u5C14\u5FB7",
+    nation: "\u632A\u5A01",
+    ship_type: "bm",
+    is_retrofit: false
+  },
+  {
+    id: 508,
+    name: "\u5B89\u8428\u5C14\u591A",
+    nation: "\u897F\u73ED\u7259",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 509,
+    name: "\u8C26\u900A",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 510,
+    name: "G14",
+    nation: "\u65E5\u672C",
+    ship_type: "av",
+    is_retrofit: false
+  },
+  {
+    id: 511,
+    name: "\u5FB7\u6587\u90E1",
+    nation: "\u82F1\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 512,
+    name: "\u79D1\u4F26\u5761",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 513,
+    name: "\u52C7\u731B",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 514,
+    name: "\u8FD1\u6C5F",
+    nation: "\u65E5\u672C",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 515,
+    name: "\u4F0F\u7F57\u5E0C\u6D1B\u592B",
+    nation: "\u82CF\u8054",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 516,
+    name: "\u65E5\u4E39\u8BFA\u592B",
+    nation: "\u82CF\u8054",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 517,
+    name: "\u5415\u8D1D\u514B",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 518,
+    name: "IIIA",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 519,
+    name: "T.995",
+    nation: "\u4E2D\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 520,
+    name: "\u8499\u5927\u62FF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 521,
+    name: "1913\u6218\u5DE1",
+    nation: "\u4E2D\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 522,
+    name: "\u6CD5\u6208",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 523,
+    name: "\u4E9A\u62C9\u5DF4\u9A6C",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 524,
+    name: "\u590F\u5A01\u5937",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 525,
+    name: "\u957F\u6CE2",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 526,
+    name: "\u6731\u8BFA(CL-119)",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 527,
+    name: "CNT\u5DE1\u6D0B\u8230",
+    nation: "\u4E2D\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 528,
+    name: "\u829D\u52A0\u54E5(CA-136)",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 529,
+    name: "\u82B1\u4FE1\u98CE",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 530,
+    name: "M-296",
+    nation: "\u82CF\u8054",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 531,
+    name: "\u58A8\u5C14\u6CE2\u58A8\u6D85",
+    nation: "\u6CD5\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 532,
+    name: "\u4F46\u4E01",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 533,
+    name: "\u683C\u7F57\u5179\u5C3C",
+    nation: "\u82CF\u8054",
+    ship_type: "kp",
+    is_retrofit: false
+  },
+  {
+    id: 534,
+    name: "24\u5DE5\u7A0B",
+    nation: "\u82CF\u8054",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 535,
+    name: "Z32",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 536,
+    name: "\u5361\u4F2F\u7279",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 537,
+    name: "\u6CE2\u62C9",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 538,
+    name: "\u4F0A-25",
+    nation: "\u65E5\u672C",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 539,
+    name: "SKR-6",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 540,
+    name: "\u4F0A\u5179\u6885\u5C14",
+    nation: "\u6C99\u4FC4",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 541,
+    name: "\u706B\u529B",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 542,
+    name: "\u5361\u5F8B\u5E03\u72C4\u65AF",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 543,
+    name: "Z2",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 544,
+    name: "\u4E1B\u4E91",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 545,
+    name: "\u5A01\u6089\u6CB3",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 546,
+    name: "\u5FB7\u610F\u5FD7(\u8BAD\u7EC3\u5DE1\u6D0B\u8230)",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 547,
+    name: "\u52C3\u826E\u7B2C",
+    nation: "\u6CD5\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 548,
+    name: "\u9F99\u51E4",
+    nation: "\u65E5\u672C",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 549,
+    name: "\u5C9B\u98CE(\u5CF0\u98CE\u578B\u9A71\u9010\u8230)",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 550,
+    name: "\u8D6B\u5C14",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 551,
+    name: "\u672C\u660E",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 552,
+    name: "\u7D6E\u5F17\u4F26",
+    nation: "\u6CD5\u56FD",
+    ship_type: "aadg",
+    is_retrofit: false
+  },
+  {
+    id: 553,
+    name: "\u957F\u7530",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 554,
+    name: "\u6208\u91CC\u9F50\u4E9A",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 555,
+    name: "\u739B\u4E3D\u5973\u738B",
+    nation: "\u82F1\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 556,
+    name: "\u82E5\u6708",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 557,
+    name: "\u521D\u6625",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 558,
+    name: "\u829D\u52A0\u54E5(CA-29)",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 559,
+    name: "\u4E0D\u60E7(\u9632\u7A7A\u5BFC\u5F39\u9A71\u9010\u8230)",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "aadg",
+    is_retrofit: false
+  },
+  {
+    id: 560,
+    name: "\u77F3\u52D2\u82CF\u76CA\u683C-\u8377\u5C14\u65BD\u6CF0\u56E0",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bm",
+    is_retrofit: false
+  },
+  {
+    id: 561,
+    name: "\u6731\u5229\u5965\xB7\u683C\u9A6C\u5C3C\u5E93\u65AF",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 562,
+    name: "\u4E0D\u5C48",
+    nation: "\u82F1\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 563,
+    name: "\u5EB7\u6C83\u5C14",
+    nation: "\u82F1\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 564,
+    name: "Z60",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 565,
+    name: "\u585E\u74E6\u65AF\u6258\u6CE2\u5C14(\u6218\u5217\u5DE1\u6D0B\u8230)",
+    nation: "\u82CF\u8054",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 566,
+    name: "\u98CE\u66B4",
+    nation: "\u6CE2\u5170",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 567,
+    name: "\u79D1\u8292\u65AF\u66FC\u7279\u6E7E",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 568,
+    name: "\u82CF\u5C14\u7279\u5143\u5E05",
+    nation: "\u82F1\u56FD",
+    ship_type: "bm",
+    is_retrofit: false
+  },
+  {
+    id: 569,
+    name: "\u5E03\u52C3\u8BFA\u592B\u65B9\u6848",
+    nation: "\u6C99\u4FC4",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 570,
+    name: "\u5343\u5C81",
+    nation: "\u65E5\u672C",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 571,
+    name: "\u6587\u68EE\u65AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 572,
+    name: "\u9A8F\u6CB3",
+    nation: "\u65E5\u672C",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 573,
+    name: "71\u5DE5\u7A0B",
+    nation: "\u82CF\u8054",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 574,
+    name: "\u5FB7\u514B\u8428\u65AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 575,
+    name: "\u5A01\u6B66",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 576,
+    name: "\u4E2D\u9014\u5C9B",
+    nation: "\u7F8E\u56FD",
+    ship_type: "av",
+    is_retrofit: false
+  },
+  {
+    id: 577,
+    name: "\u6C34\u4E2D\u4ED9\u5973",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 578,
+    name: "\u91CC\u7EF4\u65AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "aadg",
+    is_retrofit: false
+  },
+  {
+    id: 579,
+    name: "\u4F0A-201",
+    nation: "\u65E5\u672C",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 580,
+    name: "\u7279\u4F26\u6258",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 581,
+    name: "\u585E\u74E6\u65AF\u6258\u6CE2\u5C14(\u5BFC\u5F39\u5DE1\u6D0B\u8230)",
+    nation: "\u82CF\u8054",
+    ship_type: "kp",
+    is_retrofit: false
+  },
+  {
+    id: 582,
+    name: "H43",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 583,
+    name: "\u5361\u62C9\u4E54\u6D1B",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 584,
+    name: "IVS\u8F7B\u5DE1\u6D0B\u8230",
+    nation: "\u4E2D\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 585,
+    name: "\u9CDE\u9C80",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 586,
+    name: "AIII",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bbv",
+    is_retrofit: false
+  },
+  {
+    id: 587,
+    name: "\u8003\u5F6D\u65AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 588,
+    name: "422",
+    nation: "\u4E2D\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 589,
+    name: "\u4F11\xB7W\xB7\u54C8\u5FB7\u5229",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 590,
+    name: "\u91D1\u4F2F\u6069",
+    nation: "\u6C99\u4FC4",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 591,
+    name: "\u52A0\u5C14\u5404\u7B54",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 592,
+    name: "\u8C79",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 593,
+    name: "\u5915\u96FE",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 594,
+    name: "\u9EC4\u8702(CV-18)",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 595,
+    name: "\u4E1C\u98CE",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 596,
+    name: "\u4E5D\u6C5F",
+    nation: "\u4E2D\u56FD",
+    ship_type: "asdg",
+    is_retrofit: false
+  },
+  {
+    id: 597,
+    name: "\u6D77\u6D0B",
+    nation: "\u82F1\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 598,
+    name: "\u6885\u96F7\u8FEA\u65AF",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 599,
+    name: "303",
+    nation: "\u4E2D\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 600,
+    name: "U-4501",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 601,
+    name: "351",
+    nation: "\u4E2D\u56FD",
+    ship_type: "ssg",
+    is_retrofit: false
+  },
+  {
+    id: 602,
+    name: "\u5BC6\u897F\u897F\u6BD4",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 603,
+    name: "\u51EF\u5C14\u68EE",
+    nation: "\u6CD5\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 604,
+    name: "\u5927\u80C6",
+    nation: "\u82F1\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 605,
+    name: "\u5361\u8428\u8BFA\u65B9\u6848",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 606,
+    name: "\u6C49\u5821",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 607,
+    name: "\u822A\u7A7A\u5175",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 608,
+    name: "\u652F\u6301\u8005",
+    nation: "\u82F1\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 609,
+    name: "\u9999\u683C\u91CC\u62C9",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 610,
+    name: "\u6FC0\u6D41",
+    nation: "\u82F1\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 611,
+    name: "\u8FEA\u76D6\xB7\u7279\u9C81\u5B89",
+    nation: "\u6CD5\u56FD",
+    ship_type: "cl",
+    is_retrofit: false
+  },
+  {
+    id: 612,
+    name: "\u5DF4\u683C\u5229",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 613,
+    name: "\u6B66\u85CF",
+    nation: "\u65E5\u672C",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 614,
+    name: "\u5E03\u5217\u5854\u5C3C",
+    nation: "\u6CD5\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 615,
+    name: "\u51B2\u950B",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 616,
+    name: "\u72ED\u96FE",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 617,
+    name: "\u5357\u4EAC",
+    nation: "\u4E2D\u56FD",
+    ship_type: "asdg",
+    is_retrofit: false
+  },
+  {
+    id: 618,
+    name: "\u7C73\u5207\u5C14",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 619,
+    name: "\u7F57\u65AF\u798F",
+    nation: "\u7F8E\u56FD",
+    ship_type: "av",
+    is_retrofit: false
+  },
+  {
+    id: 620,
+    name: "\u94C1\u516C\u7235",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 621,
+    name: "\u957F\u77DB",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 622,
+    name: "\u675C\u5E03\u96F7",
+    nation: "\u6CD5\u56FD",
+    ship_type: "ca",
+    is_retrofit: false
+  },
+  {
+    id: 623,
+    name: "\u9C81\u83BD",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 624,
+    name: "\u5821\u5792",
+    nation: "\u82F1\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 625,
+    name: "\u5361\u8428\u5C14",
+    nation: "\u6CD5\u56FD",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 626,
+    name: "\u4F0A-17",
+    nation: "\u65E5\u672C",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 627,
+    name: "\u5965\u91CC\u65AF\u574E\u5C3C",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: false
+  },
+  {
+    id: 628,
+    name: "\u957F\u5C9B",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 629,
+    name: "\u6851\u52A0\u8499",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: false
+  },
+  {
+    id: 630,
+    name: "U-3008",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 631,
+    name: "Kw45",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bc",
+    is_retrofit: false
+  },
+  {
+    id: 632,
+    name: "\u6D77\u6885\u4E00\u4E16",
+    nation: "\u897F\u73ED\u7259",
+    ship_type: "bb",
+    is_retrofit: false
+  },
+  {
+    id: 633,
+    name: "S-49",
+    nation: "\u82CF\u8054",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 634,
+    name: "\u81EA\u8C6A",
+    nation: "\u82CF\u8054",
+    ship_type: "asdg",
+    is_retrofit: false
+  },
+  {
+    id: 636,
+    name: "\u6D3B\u6CFC",
+    nation: "\u82CF\u8054",
+    ship_type: "asdg",
+    is_retrofit: false
+  },
+  {
+    id: 637,
+    name: "\u4F0A-400",
+    nation: "\u65E5\u672C",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 638,
+    name: "\u864E(\u9A71\u9010\u8230)",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "dd",
+    is_retrofit: false
+  },
+  {
+    id: 639,
+    name: "\u963F\u5C14\u6208",
+    nation: "\u6CD5\u56FD",
+    ship_type: "ss",
+    is_retrofit: false
+  },
+  {
+    id: 1001,
+    name: "\u80E1\u5FB7\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "bc",
+    is_retrofit: true
+  },
+  {
+    id: 1002,
+    name: "\u6276\u6851\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "bbv",
+    is_retrofit: true
+  },
+  {
+    id: 1003,
+    name: "\u5C71\u57CE\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1004,
+    name: "\u4F0A\u52BF\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "bbv",
+    is_retrofit: true
+  },
+  {
+    id: 1005,
+    name: "\u65E5\u5411\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "bbv",
+    is_retrofit: true
+  },
+  {
+    id: 1006,
+    name: "\u4FFE\u65AF\u9EA6\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1007,
+    name: "\u63D0\u5C14\u6BD4\u8328\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1008,
+    name: "\u7EB3\u5C14\u900A\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1009,
+    name: "\u7F57\u5FB7\u5C3C\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1010,
+    name: "\u5A01\u5C14\u58EB\u4EB2\u738B\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1011,
+    name: "\u5185\u534E\u8FBE\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1012,
+    name: "\u4FC4\u514B\u62C9\u8377\u9A6C\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1013,
+    name: "\u5B89\u5FB7\u70C8\u4E9A\xB7\u591A\u5229\u4E9A\xB7\u6539",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1014,
+    name: "\u91D1\u521A\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1018,
+    name: "\u58F0\u671B\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "bc",
+    is_retrofit: true
+  },
+  {
+    id: 1019,
+    name: "\u53CD\u51FB\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "bc",
+    is_retrofit: true
+  },
+  {
+    id: 1020,
+    name: "\u963F\u62C9\u65AF\u52A0\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bg",
+    is_retrofit: true
+  },
+  {
+    id: 1021,
+    name: "\u5173\u5C9B\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bg",
+    is_retrofit: true
+  },
+  {
+    id: 1022,
+    name: "\u8D64\u57CE\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1023,
+    name: "\u52A0\u8D3A\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1024,
+    name: "\u7965\u51E4\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cvl",
+    is_retrofit: true
+  },
+  {
+    id: 1025,
+    name: "\u745E\u51E4\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cvl",
+    is_retrofit: true
+  },
+  {
+    id: 1026,
+    name: "\u767E\u773C\u5DE8\u4EBA\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "cvl",
+    is_retrofit: true
+  },
+  {
+    id: 1027,
+    name: "\u5170\u5229\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: true
+  },
+  {
+    id: 1028,
+    name: "\u7A81\u51FB\u8005\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1029,
+    name: "\u5217\u514B\u661F\u6566(CV-2)\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1030,
+    name: "\u8428\u62C9\u6258\u52A0\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1031,
+    name: "\u5927\u9EC4\u8702\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1032,
+    name: "\u9AD8\u96C4\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1033,
+    name: "\u7231\u5B95\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1034,
+    name: "\u6469\u8036\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1035,
+    name: "\u9E1F\u6D77\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1036,
+    name: "\u5E0C\u4F69\u5C14\u6D77\u519B\u4E0A\u5C06\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1037,
+    name: "\u5E03\u5415\u6B47\u5C14(\u91CD\u5DE1\u6D0B\u8230)\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1038,
+    name: "\u6B27\u6839\u4EB2\u738B\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1039,
+    name: "\u5A01\u5947\u5854\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1040,
+    name: "\u6606\u897F\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1041,
+    name: "\u5929\u9F99\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1042,
+    name: "\u9F99\u7530\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1043,
+    name: "\u5317\u4E0A\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "clt",
+    is_retrofit: true
+  },
+  {
+    id: 1044,
+    name: "\u5927\u4E95\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "clt",
+    is_retrofit: true
+  },
+  {
+    id: 1045,
+    name: "\u4E94\u5341\u94C3\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1046,
+    name: "\u5915\u5F20\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1047,
+    name: "\u67EF\u5C3C\u65AF\u5821\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1048,
+    name: "\u5361\u5C14\u65AF\u9C81\u5384\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1049,
+    name: "\u79D1\u9686\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1050,
+    name: "\u5929\u72FC\u661F\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1054,
+    name: "\u91CD\u5E86",
+    nation: "\u4E2D\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1055,
+    name: "\u5965\u9A6C\u54C8\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1056,
+    name: "\u4E9A\u7279\u5170\u5927\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1057,
+    name: "\u6731\u8BFA(CL-52)\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1058,
+    name: "\u5965\u5E0C\u91D1\u65AF",
+    nation: "\u667A\u5229",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1059,
+    name: "\u6D77\u4F26\u5A1C\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1060,
+    name: "\u5B81\u6D77\xB7\u6539",
+    nation: "\u4E2D\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1061,
+    name: "\u5E73\u6D77\xB7\u6539",
+    nation: "\u4E2D\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1062,
+    name: "\u7F57\u4F2F\u8328\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "bm",
+    is_retrofit: true
+  },
+  {
+    id: 1063,
+    name: "\u963F\u8D1D\u514B\u9686\u6BD4\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "bm",
+    is_retrofit: true
+  },
+  {
+    id: 1064,
+    name: "\u5439\u96EA\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1065,
+    name: "\u767D\u96EA\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1066,
+    name: "\u521D\u96EA\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1067,
+    name: "\u6DF1\u96EA\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1068,
+    name: "\u6653\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1069,
+    name: "\u4FE1\u8D56",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1070,
+    name: "\u96F7\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1071,
+    name: "\u7535\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1072,
+    name: "\u7EEB\u6CE2\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1073,
+    name: "\u6577\u6CE2\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1074,
+    name: "Z1\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1075,
+    name: "Z16\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1076,
+    name: "Z21\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1077,
+    name: "Z22\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1079,
+    name: "Z28\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1080,
+    name: "Z31\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1081,
+    name: "\u7D2B\u77F3\u82F1\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1082,
+    name: "\u8424\u706B\u866B\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1083,
+    name: "\u6807\u67AA\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1084,
+    name: "\u5929\u540E\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1085,
+    name: "\u9ED1\u80CC\u8C7A\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1086,
+    name: "\u54E5\u8428\u514B\u4EBA\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1087,
+    name: "\u7231\u65AF\u57FA\u6469\u4EBA\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1088,
+    name: "\u65C1\u906E\u666E\u4EBA\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1089,
+    name: "\u5F17\u83B1\u5F7B\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1092,
+    name: "\u5E03\u96F7\u6069\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1093,
+    name: "\u57FA\u6797\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1094,
+    name: "\u57FA\u963F\u7279\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "aadg",
+    is_retrofit: true
+  },
+  {
+    id: 1097,
+    name: "\u957F\u6625",
+    nation: "\u4E2D\u56FD",
+    ship_type: "asdg",
+    is_retrofit: true
+  },
+  {
+    id: 1098,
+    name: "\u6C83\u514B\u5170\xB7\u6539",
+    nation: "\u6CD5\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1099,
+    name: "\u7A7A\u60F3\xB7\u6539",
+    nation: "\u6CD5\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1100,
+    name: "\u72EE(\u6218\u5217\u8230)\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1101,
+    name: "\u957F\u95E8\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1102,
+    name: "\u9646\u5965\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1105,
+    name: "\u524D\u536B\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1106,
+    name: "\u7530\u7EB3\u897F\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1107,
+    name: "\u52A0\u5229\u798F\u5C3C\u4E9A\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1108,
+    name: "\u79D1\u7F57\u62C9\u591A\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1109,
+    name: "\u9A6C\u91CC\u5170\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1110,
+    name: "\u897F\u5F17\u5409\u5C3C\u4E9A\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1111,
+    name: "\u534E\u76DB\u987F\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1112,
+    name: "\u7EF4\u6258\u91CC\u5965\xB7\u7EF4\u5185\u6258\xB7\u6539",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1113,
+    name: "\u9ECE\u585E\u7559\xB7\u6539",
+    nation: "\u6CD5\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1117,
+    name: "\u5927\u51E4\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "av",
+    is_retrofit: true
+  },
+  {
+    id: 1118,
+    name: "\u9F50\u67CF\u6797\u4F2F\u7235\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "av",
+    is_retrofit: true
+  },
+  {
+    id: 1120,
+    name: "\u7EA6\u514B\u57CE\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1121,
+    name: "\u4F01\u4E1A\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1123,
+    name: "\u535A\u683C\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: true
+  },
+  {
+    id: 1124,
+    name: "\u8FFD\u8D76\u8005\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "cvl",
+    is_retrofit: true
+  },
+  {
+    id: 1125,
+    name: "\u57C3\u7F57\u8292\u4EC0",
+    nation: "\u6CD5\u56FD",
+    ship_type: "cvl",
+    is_retrofit: true
+  },
+  {
+    id: 1126,
+    name: "\u666E\u6797\u65AF\u987F\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: true
+  },
+  {
+    id: 1130,
+    name: "\u65AF\u4F69\u4F2F\u7235\u6D77\u519B\u4E0A\u5C06\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bc",
+    is_retrofit: true
+  },
+  {
+    id: 1131,
+    name: "\u53E4\u9E70\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1132,
+    name: "\u52A0\u53E4\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1133,
+    name: "\u9752\u53F6\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1135,
+    name: "\u4F26\u6566\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1136,
+    name: "\u80AF\u7279\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1137,
+    name: "\u6CE2\u7279\u5170\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1139,
+    name: "\u5F6D\u8428\u79D1\u62C9\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1141,
+    name: "\u5317\u5B89\u666E\u987F\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1142,
+    name: "\u4F11\u65AF\u987F\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1143,
+    name: "\u65B0\u5965\u5C14\u826F\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1145,
+    name: "\u5DDD\u5185\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1149,
+    name: "\u57C3\u59C6\u767B\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1150,
+    name: "\u7FE1\u7FE0\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1151,
+    name: "\u8FDB\u53D6\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1158,
+    name: "\u5723\u80E1\u5B89\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1160,
+    name: "\u6469\u5C14\u66FC\u65AF\u514B\xB7\u6539",
+    nation: "\u82CF\u8054",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1162,
+    name: "\u9038\u4ED9\xB7\u6539",
+    nation: "\u4E2D\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1164,
+    name: "\u79CB\u6708\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1165,
+    name: "\u51C9\u6708\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1166,
+    name: "\u9633\u708E\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1167,
+    name: "\u4E0D\u77E5\u706B\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1168,
+    name: "\u9ED1\u6F6E\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1169,
+    name: "\u4E39\u9633",
+    nation: "\u4E2D\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1171,
+    name: "Z46\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1175,
+    name: "\u7EF4\u7EB3\u65AF\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1178,
+    name: "\u6C99\u5229\u6587\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1181,
+    name: "\u5A01\u5EC9\xB7D\xB7\u6CE2\u7279\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1182,
+    name: "\u6CE2\u7279\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1183,
+    name: "\u62C9\u83F2(DD-724)\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1185,
+    name: "\u673A\u7075",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1187,
+    name: "\u5B89\u4E1C\u5C3C\u5965\xB7\u8FBE\u8BFA\u5229\xB7\u6539",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1188,
+    name: "\u4E4C\u6208\u91CC\u5C3C\xB7\u7EF4\u74E6\u5C14\u8FEA\xB7\u6539",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1192,
+    name: "\u5854\u4EC0\u5E72\xB7\u6539",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1194,
+    name: "\u5927\u9752\u82B1\u9C7C\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ss",
+    is_retrofit: true
+  },
+  {
+    id: 1195,
+    name: "\u5C04\u6C34\u9C7C\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ss",
+    is_retrofit: true
+  },
+  {
+    id: 1197,
+    name: "U-47\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: true
+  },
+  {
+    id: 1198,
+    name: "U-505\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: true
+  },
+  {
+    id: 1199,
+    name: "\u7D6E\u5E93\u592B\xB7\u6539",
+    nation: "\u6CD5\u56FD",
+    ship_type: "sc",
+    is_retrofit: true
+  },
+  {
+    id: 1205,
+    name: "\u7EA6\u514B\u516C\u7235\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1206,
+    name: "\u5317\u5361\u7F57\u6765\u7EB3\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1207,
+    name: "\u5357\u8FBE\u79D1\u4ED6(BB-57)\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1209,
+    name: "\u5BC6\u82CF\u91CC\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bbg",
+    is_retrofit: true
+  },
+  {
+    id: 1211,
+    name: "\u5361\u7EA6\xB7\u675C\u4F0A\u91CC\u5965\xB7\u6539",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1215,
+    name: "\u739B\u4E3D\u4E9A\u7687\u540E\xB7\u6539",
+    nation: "\u6C99\u4FC4",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1219,
+    name: "\u745E\u9E64\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1220,
+    name: "\u7FD4\u9E64\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1221,
+    name: "\u98DE\u9F99\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1222,
+    name: "\u82CD\u9F99\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1223,
+    name: "\u4FE1\u6D53\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "av",
+    is_retrofit: true
+  },
+  {
+    id: 1224,
+    name: "\u53EF\u754F\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "av",
+    is_retrofit: true
+  },
+  {
+    id: 1225,
+    name: "\u9EC4\u8702(CV-7)\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1227,
+    name: "\u98DE\u9E70\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cvl",
+    is_retrofit: true
+  },
+  {
+    id: 1228,
+    name: "\u96BC\u9E70\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cvl",
+    is_retrofit: true
+  },
+  {
+    id: 1232,
+    name: "\u8D1D\u4E9A\u6069\xB7\u6539",
+    nation: "\u6CD5\u56FD",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1233,
+    name: "\u6700\u4E0A\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cav",
+    is_retrofit: true
+  },
+  {
+    id: 1238,
+    name: "\u7EA6\u514B\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1239,
+    name: "\u57C3\u514B\u8D5B\u7279\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1240,
+    name: "\u65E7\u91D1\u5C71\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1241,
+    name: "\u5DF4\u5C14\u7684\u6469\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1244,
+    name: "\u7075\u654F\xB7\u6539",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1247,
+    name: "\u9999\u53D6\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1248,
+    name: "\u5927\u6DC0\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cav",
+    is_retrofit: true
+  },
+  {
+    id: 1249,
+    name: "\u83B1\u6BD4\u9521\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1258,
+    name: "\u9AD8\u6CE2\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1265,
+    name: "\u5C9A\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1266,
+    name: "\u521D\u590F\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1267,
+    name: "\u5C9B\u98CE(\u5C9B\u98CE\u578B\u9A71\u9010\u8230)\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1269,
+    name: "Z17\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1270,
+    name: "Z18\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1273,
+    name: "\u8D5B\u5C14\u5F17\u91CC\u5409\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1275,
+    name: "\u5EB7\u5F17\u65AF\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1277,
+    name: "\u514B\u62C9\u514B\u65AF\u987F\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1278,
+    name: "\u970D\u57C3\u5C14\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1279,
+    name: "\u585E\u7F2A\u5C14\xB7B\xB7\u7F57\u4F2F\u8328\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1280,
+    name: "\u7EA6\u7FF0\u65AF\u987F\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1289,
+    name: "U-81\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: true
+  },
+  {
+    id: 1290,
+    name: "U-96\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: true
+  },
+  {
+    id: 1291,
+    name: "U-2540\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: true
+  },
+  {
+    id: 1293,
+    name: "U-1206\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: true
+  },
+  {
+    id: 1299,
+    name: "\u8BA9\u5DF4\u5C14\xB7\u6539",
+    nation: "\u6CD5\u56FD",
+    ship_type: "bbg",
+    is_retrofit: true
+  },
+  {
+    id: 1301,
+    name: "\u9A6C\u6C49\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1306,
+    name: "\u5DF4\u592B\u52D2\u5C14\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1311,
+    name: "\u74DC\u8FBE\u5361\u7EB3\u5C14\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cvl",
+    is_retrofit: true
+  },
+  {
+    id: 1316,
+    name: "\u660E\u65AF\u514B\xB7\u6539",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1323,
+    name: "\u57FA\u8F85\xB7\u6539",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1325,
+    name: "\u5217\u514B\u661F\u6566(CV-16)\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1332,
+    name: "\u795E\u9E70\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "cvl",
+    is_retrofit: true
+  },
+  {
+    id: 1335,
+    name: "\u4F0F\u5C14\u5854\xB7\u6539",
+    nation: "\u6CD5\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1339,
+    name: "\u5E1D\u56FD\xB7\u6539",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1340,
+    name: "\u6CE2\u5C14\u624E\u8BFA\xB7\u6539",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "cav",
+    is_retrofit: true
+  },
+  {
+    id: 1342,
+    name: "\u6C5F\u539F\xB7\u6539",
+    nation: "\u97E9\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1343,
+    name: "\u851A\u5C71\xB7\u6539",
+    nation: "\u97E9\u56FD",
+    ship_type: "asdg",
+    is_retrofit: true
+  },
+  {
+    id: 1344,
+    name: "\u5FE0\u6B66\xB7\u6539",
+    nation: "\u97E9\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1351,
+    name: "U-1405\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "ss",
+    is_retrofit: true
+  },
+  {
+    id: 1362,
+    name: "\u661F\u5EA7\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "bc",
+    is_retrofit: true
+  },
+  {
+    id: 1363,
+    name: "\u70BD\u70ED\xB7\u6539",
+    nation: "\u82CF\u8054",
+    ship_type: "aadg",
+    is_retrofit: true
+  },
+  {
+    id: 1366,
+    name: "\u9E66\u9E49\u87BA\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ss",
+    is_retrofit: true
+  },
+  {
+    id: 1372,
+    name: "\u65E9\u6625\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1380,
+    name: "\u5723\u4E54\u6CBB\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1400,
+    name: "\u4E03\u7701\u8054\u76DF\xB7\u6539",
+    nation: "\u8377\u5170",
+    ship_type: "cg",
+    is_retrofit: true
+  },
+  {
+    id: 1408,
+    name: "\u9C83\u9C7C\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "ss",
+    is_retrofit: true
+  },
+  {
+    id: 1413,
+    name: "\u52A0\u91CC\u6CE2\u7B2C\xB7\u6539",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "cg",
+    is_retrofit: true
+  },
+  {
+    id: 1414,
+    name: "\u51EF\u5229\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1416,
+    name: "47\u5DE5\u7A0B\xB7\u6539",
+    nation: "\u82CF\u8054",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1425,
+    name: "\u53F2\u5BC6\u65AF\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1426,
+    name: "\u5F7C\u5F97\xB7\u65BD\u7279\u62C9\u585E\u5C14\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cv",
+    is_retrofit: true
+  },
+  {
+    id: 1430,
+    name: "\u6377\u5C14\u4EFB\u65AF\u57FA\xB7\u6539",
+    nation: "\u82CF\u8054",
+    ship_type: "cg",
+    is_retrofit: true
+  },
+  {
+    id: 1431,
+    name: "\u4EC0\u7F57\u666E\u90E1\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "ca",
+    is_retrofit: true
+  },
+  {
+    id: 1456,
+    name: "\u5854\u6797",
+    nation: "\u82CF\u8054",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1467,
+    name: "\u978D\u5C71\xB7\u6539",
+    nation: "\u4E2D\u56FD",
+    ship_type: "asdg",
+    is_retrofit: true
+  },
+  {
+    id: 1483,
+    name: "\u80DC\u5229\xB7\u6539",
+    nation: "\u82F1\u56FD",
+    ship_type: "av",
+    is_retrofit: true
+  },
+  {
+    id: 1490,
+    name: "\u514B\u52B3\u585E\u7EF4\u8328\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bc",
+    is_retrofit: true
+  },
+  {
+    id: 1496,
+    name: "\u8BFA\u798F\u514B(DL-1)\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1503,
+    name: "T-23\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1509,
+    name: "\u8C26\u900A\xB7\u6539",
+    nation: "\u82CF\u8054",
+    ship_type: "aadg",
+    is_retrofit: true
+  },
+  {
+    id: 1516,
+    name: "\u65E5\u4E39\u8BFA\u592B\xB7\u6539",
+    nation: "\u82CF\u8054",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1517,
+    name: "\u5415\u8D1D\u514B\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1519,
+    name: "T.995\xB7\u6539",
+    nation: "\u4E2D\u56FD",
+    ship_type: "dd",
+    is_retrofit: true
+  },
+  {
+    id: 1527,
+    name: "CNT\u5DE1\u6D0B\u8230\xB7\u6539",
+    nation: "\u4E2D\u56FD",
+    ship_type: "cl",
+    is_retrofit: true
+  },
+  {
+    id: 1528,
+    name: "\u829D\u52A0\u54E5(CA-136)\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "cg",
+    is_retrofit: true
+  },
+  {
+    id: 1530,
+    name: "M-296\xB7\u6539",
+    nation: "\u82CF\u8054",
+    ship_type: "ss",
+    is_retrofit: true
+  },
+  {
+    id: 1532,
+    name: "\u4F46\u4E01\xB7\u6539",
+    nation: "\u610F\u5927\u5229",
+    ship_type: "bb",
+    is_retrofit: true
+  },
+  {
+    id: 1538,
+    name: "\u4F0A-25\xB7\u6539",
+    nation: "\u65E5\u672C",
+    ship_type: "ss",
+    is_retrofit: true
+  },
+  {
+    id: 1545,
+    name: "\u5A01\u6089\u6CB3\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "cvl",
+    is_retrofit: true
+  },
+  {
+    id: 1560,
+    name: "\u77F3\u52D2\u82CF\u76CA\u683C-\u8377\u5C14\u65BD\u6CF0\u56E0\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "bm",
+    is_retrofit: true
+  },
+  {
+    id: 1575,
+    name: "\u5A01\u6B66\xB7\u6539",
+    nation: "\u82CF\u8054",
+    ship_type: "aadg",
+    is_retrofit: true
+  },
+  {
+    id: 1590,
+    name: "\u91D1\u4F2F\u6069\xB7\u6539",
+    nation: "\u6C99\u4FC4",
+    ship_type: "bc",
+    is_retrofit: true
+  },
+  {
+    id: 1606,
+    name: "\u6C49\u5821\xB7\u6539",
+    nation: "\u5FB7\u56FD",
+    ship_type: "asdg",
+    is_retrofit: true
+  },
+  {
+    id: 1618,
+    name: "\u7C73\u5207\u5C14\xB7\u6539",
+    nation: "\u7F8E\u56FD",
+    ship_type: "aadg",
+    is_retrofit: true
+  },
+  {
+    id: 10581,
+    name: "10581\u5DE5\u7A0B",
+    nation: "\u82CF\u8054",
+    ship_type: "bbv",
+    is_retrofit: false
+  }
+];

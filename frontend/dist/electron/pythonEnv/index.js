@@ -1,0 +1,48 @@
+"use strict";
+/**
+ * 汇总 Python 环境模块的公共导出。
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.verifyBackendRuntimeContract = exports.installBackendArchive = exports.autoUpdateAutowsgr = exports.resolveBackendDistribution = exports.buildManagedAutowsgrRequirement = exports.BACKEND_DISTRIBUTIONS = exports.installDependencies = exports.buildDependencyInstallPlan = exports.checkForUpdates = exports.installPortablePython = exports.checkEnvironment = exports.buildAutoUpdateDeps = exports.buildBackendRuntimeEnvironment = exports.buildCudaEnvironment = exports.resolveConfiguredCudaRoot = exports.readCudaVersionFile = exports.installTargetArgs = exports.buildPythonProcessEnv = exports.backendShipNamesPath = exports.resolvePythonEnvironment = exports.resolveExternalBackendRoot = exports.isLocalPython = exports.ensureSslCertForPython = exports.ensurePip = exports.localSitePackages = exports.pipEnv = exports.ensurePthFile = exports.findPython = exports.isAllowedPythonVersion = exports.clearPythonCache = exports.initPythonEnv = void 0;
+var context_1 = require("./context");
+Object.defineProperty(exports, "initPythonEnv", { enumerable: true, get: function () { return context_1.initPythonEnv; } });
+Object.defineProperty(exports, "clearPythonCache", { enumerable: true, get: function () { return context_1.clearPythonCache; } });
+var finder_1 = require("./finder");
+Object.defineProperty(exports, "isAllowedPythonVersion", { enumerable: true, get: function () { return finder_1.isAllowedPythonVersion; } });
+Object.defineProperty(exports, "findPython", { enumerable: true, get: function () { return finder_1.findPython; } });
+var utils_1 = require("./utils");
+Object.defineProperty(exports, "ensurePthFile", { enumerable: true, get: function () { return utils_1.ensurePthFile; } });
+Object.defineProperty(exports, "pipEnv", { enumerable: true, get: function () { return utils_1.pipEnv; } });
+Object.defineProperty(exports, "localSitePackages", { enumerable: true, get: function () { return utils_1.localSitePackages; } });
+Object.defineProperty(exports, "ensurePip", { enumerable: true, get: function () { return utils_1.ensurePip; } });
+Object.defineProperty(exports, "ensureSslCertForPython", { enumerable: true, get: function () { return utils_1.ensureSslCertForPython; } });
+Object.defineProperty(exports, "isLocalPython", { enumerable: true, get: function () { return utils_1.isLocalPython; } });
+var environment_1 = require("./environment");
+Object.defineProperty(exports, "resolveExternalBackendRoot", { enumerable: true, get: function () { return environment_1.resolveExternalBackendRoot; } });
+Object.defineProperty(exports, "resolvePythonEnvironment", { enumerable: true, get: function () { return environment_1.resolvePythonEnvironment; } });
+Object.defineProperty(exports, "backendShipNamesPath", { enumerable: true, get: function () { return environment_1.backendShipNamesPath; } });
+Object.defineProperty(exports, "buildPythonProcessEnv", { enumerable: true, get: function () { return environment_1.buildPythonProcessEnv; } });
+Object.defineProperty(exports, "installTargetArgs", { enumerable: true, get: function () { return environment_1.installTargetArgs; } });
+var cuda_1 = require("./cuda");
+Object.defineProperty(exports, "readCudaVersionFile", { enumerable: true, get: function () { return cuda_1.readCudaVersionFile; } });
+Object.defineProperty(exports, "resolveConfiguredCudaRoot", { enumerable: true, get: function () { return cuda_1.resolveConfiguredCudaRoot; } });
+Object.defineProperty(exports, "buildCudaEnvironment", { enumerable: true, get: function () { return cuda_1.buildCudaEnvironment; } });
+Object.defineProperty(exports, "buildBackendRuntimeEnvironment", { enumerable: true, get: function () { return cuda_1.buildBackendRuntimeEnvironment; } });
+var envCheck_1 = require("./envCheck");
+Object.defineProperty(exports, "buildAutoUpdateDeps", { enumerable: true, get: function () { return envCheck_1.buildAutoUpdateDeps; } });
+Object.defineProperty(exports, "checkEnvironment", { enumerable: true, get: function () { return envCheck_1.checkEnvironment; } });
+var installer_1 = require("./installer");
+Object.defineProperty(exports, "installPortablePython", { enumerable: true, get: function () { return installer_1.installPortablePython; } });
+Object.defineProperty(exports, "checkForUpdates", { enumerable: true, get: function () { return installer_1.checkForUpdates; } });
+Object.defineProperty(exports, "buildDependencyInstallPlan", { enumerable: true, get: function () { return installer_1.buildDependencyInstallPlan; } });
+Object.defineProperty(exports, "installDependencies", { enumerable: true, get: function () { return installer_1.installDependencies; } });
+Object.defineProperty(exports, "installDependenciesFromDirectory", { enumerable: true, get: function () { return installer_1.installDependenciesFromDirectory; } });
+Object.defineProperty(exports, "cancelDependencies", { enumerable: true, get: function () { return installer_1.cancelDependencies; } });
+var backendRequirement_1 = require("./backendRequirement");
+Object.defineProperty(exports, "BACKEND_DISTRIBUTIONS", { enumerable: true, get: function () { return backendRequirement_1.BACKEND_DISTRIBUTIONS; } });
+Object.defineProperty(exports, "buildManagedAutowsgrRequirement", { enumerable: true, get: function () { return backendRequirement_1.buildManagedAutowsgrRequirement; } });
+Object.defineProperty(exports, "resolveBackendDistribution", { enumerable: true, get: function () { return backendRequirement_1.resolveBackendDistribution; } });
+var updater_1 = require("./updater");
+Object.defineProperty(exports, "autoUpdateAutowsgr", { enumerable: true, get: function () { return updater_1.autoUpdateAutowsgr; } });
+Object.defineProperty(exports, "installBackendArchive", { enumerable: true, get: function () { return updater_1.installBackendArchive; } });
+Object.defineProperty(exports, "verifyBackendRuntimeContract", { enumerable: true, get: function () { return updater_1.verifyBackendRuntimeContract; } });

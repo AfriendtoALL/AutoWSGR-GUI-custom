@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>WSGR GUI</title>
+  <!-- 6.11b/R36：两段式启动的极简 shell。
+       它是新渲染进程的第一份文档，只负责尽早画出骨架；主进程随后把同一窗口导航到
+       src/view/index.html（热渲染进程，主文档 FCP 不再付冷首帧成本）。
+       骨架样式与 index.html 的 #boot-skeleton 保持一致，改一处时两处一起改。 -->
+  <link rel="preload" href="styles/styles.css" as="style">
+  <link rel="preload" href="../../dist/renderer.bundle.js" as="script">
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+      background: var(--bg, #0f0f1a);
+    }
+    #boot-skeleton {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      padding: 16px 18px;
+      box-sizing: border-box;
+      background: var(--bg, #0f0f1a);
+    }
+    #boot-skeleton .bs-bar,
+    #boot-skeleton .bs-side,
+    #boot-skeleton .bs-line,
+    #boot-skeleton .bs-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+      border: 1px solid var(--border, rgba(255, 255, 255, 0.06));
+      background: var(--bg-subtle, #161625);
+    }
+    #boot-skeleton .bs-bar {
+      flex: none;
+      height: 44px;
+    }
+    #boot-skeleton .bs-body {
+      display: flex;
+      flex: 1;
+      gap: 12px;
+      min-height: 0;
+    }
+    #boot-skeleton .bs-side {
+      flex: none;
+      width: 180px;
+    }
+    #boot-skeleton .bs-main {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      gap: 12px;
+      min-width: 0;
+    }
+    #boot-skeleton .bs-line {
+      flex: none;
+      height: 18px;
+    }
+    #boot-skeleton .bs-line.is-short {
+      width: 45%;
+    }
+    #boot-skeleton .bs-card {
+      flex: 1;
+      min-height: 0;
+    }
+    #boot-skeleton .bs-status {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-secondary, #8a94a8);
+      font: 13px/1.5 "Microsoft YaHei UI", sans-serif;
+      letter-spacing: 0.08em;
+    }
+    #boot-skeleton .bs-bar::after,
+    #boot-skeleton .bs-side::after,
+    #boot-skeleton .bs-line::after,
+    #boot-skeleton .bs-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      transform: translateX(-100%);
+      background: linear-gradient(90deg, transparent, var(--accent-subtle, rgba(15, 125, 255, 0.08)), transparent);
+      animation: bs-shimmer 1.4s ease-in-out infinite;
+    }
+    @keyframes bs-shimmer {
+      to {
+        transform: translateX(100%);
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      #boot-skeleton .bs-bar::after,
+      #boot-skeleton .bs-side::after,
+      #boot-skeleton .bs-line::after,
+      #boot-skeleton .bs-card::after {
+        animation: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="boot-skeleton" aria-hidden="true">
+    <div class="bs-bar"></div>
+    <div class="bs-body">
+      <div class="bs-side"></div>
+      <div class="bs-main">
+        <div class="bs-line"></div>
+        <div class="bs-line is-short"></div>
+        <div class="bs-card"></div>
+      </div>
+    </div>
+    <div class="bs-status">正在启动…</div>
+  </div>
+</body>
+</html>

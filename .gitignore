@@ -44,6 +44,9 @@ logs/
 .workbuddy/
 .env_ready
 
+# 前端源码（自 resources/app.asar 解包）：需入库，覆盖上面的扩展名排除
+!frontend/**
+
 # 排除你自己的编译产物或不需要同步的目录（视情况保留）
 # dist/
 # build/
