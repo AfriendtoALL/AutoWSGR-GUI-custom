@@ -1,50 +1,70 @@
 # AutoWSGR-GUI-custom
 
-AutoWSGR-GUI 的**个人定制版后端源码快照**，外加配套的问题清单与修复排期文档。
+AutoWSGR-GUI 的**个人定制版源码存档**：后端 Python 源码、前端（Electron 渲染层 + 主进程）解包源码、
+页面识别回归测试与全套设计文档。基于 [OpenWSGR/AutoWSGR](https://github.com/OpenWSGR/AutoWSGR) 修改。
 
-## 仓库内容
+## 仓库结构
 
 | 路径 | 说明 |
-| --- | --- |
-| `python/site-packages/autowsgr/` | 后端源码（与 GUI 安装目录中的路径一一对应，改哪一行看文档里的 `py:` 前缀即可） |
-| `AutoWSGR-GUI-问题汇总与修复排期.md` | 问题总表、统一编号（R01–R51）、批次 0–7 排期 |
-| `LICENSE` | 上游许可证原文（非商业 · 相同方式共享） |
+|---|---|
+| `python/site-packages/autowsgr/` | 后端源码，与安装目录路径一一对应（`autowsgr 2.3.0` 定制版） |
+| `frontend/` | 前端源码：渲染层 130 个模块 + 主进程 83 个文件，自 `resources/app.asar` 解包（`wsgrgui 2.1.2-alpha.3`） |
+| `tests/` | 回归测试：批次 4.1–7 用例 + golden 识别基线（75 图 / 48.5 MB） |
+| `presets/` | 可直接导入的作战计划预设（如 `decisive-00-E6-全自动刷分.yaml`） |
+| `docs/` | 需求、排期、映射、核查文档，入口见 [docs/README.md](docs/README.md) |
+| `run_golden.bat`、`tests/run_golden.bat` | golden 回归一键入口 |
 
-## 上游与版本
+前端目录的构成与来源（哪些是手写、哪些从 sourcemap 还原、怎么重新同步）见
+[frontend/README.md](frontend/README.md)。
 
-- 上游项目：[OpenWSGR/AutoWSGR](https://github.com/OpenWSGR/AutoWSGR)
-- 包版本：`autowsgr 2.3.0`（`autowsgr-2.3.0.dist-info/METADATA`）
-- 本仓库是**衍生作品**：包含本机对上游代码的修改（见下）
+## 快速开始
 
-## 本仓库承载的本地改动
+```bat
+:: 页面识别回归（75 张图，约 3 分钟）
+run_golden.bat
 
-按《问题汇总与修复排期》的批次推进，已落地：
+:: 只输出汇总
+python\python.exe tests\run_golden.py --quiet
+```
 
-- **批次 0**：补注册 `BATTLE_PREP`、页面元数据 `overlay/always`、候选集并入 always（R46 治标）
-- **批次 1**：进度不变式与可观测性、导航取证（R47）
-- **批次 2**：`act_and_wait` 闭环原语、`wait_for_page` 稳定帧、恢复阶梯（R48）
-- **专项**：R02 停止响应下沉、R03 三级兜底（返回箭头 / 网络弹窗 / 重建栈）
-- **批次 3.1 / 3.2**：活动页锚点改为「多锚点 + 特异性排序」（标题 → 难度图标 → 出击按钮，分数取锚点自身置信度）；出击按钮模板匹配限定到右下角 `_FIGHT_BUTTON_ROI`，消除出征准备页标题栏 0.87 误命中
+golden 基线覆盖 62 张真机截图 + 13 张合成页面夹具，对应 15 个注册页面；
+任何识别器/阈值/模板改动都应先跑一遍，`[FAIL]` 会打印期望值与实际值。
 
-所有改动文件与行号在文档 §5「修复记录」与各批次章节中可查。
+## 生效方式
+
+本仓库是**源码存档**，不是可直接构建的工程：
+
+- **后端**：把 `python/site-packages/autowsgr/` 覆盖回安装目录同名路径即可（运行时为 `python/python.exe` 3.12）。
+- **前端**：`frontend/dist/**` 与 asar 内同名文件一一对应；修改后需重新打包 `resources/app.asar`
+  并同步每个条目的 `integrity`（详见 `frontend/README.md`）。改 `frontend/src/**` 不会直接生效。
 
 ## 不包含的内容
 
-- Electron/Chromium 运行库、`AutoWSGR-GUI.exe`、`.asar`（二进制与打包产物）
-- Python 解释器与第三方依赖（`python/` 下除 `site-packages/autowsgr/` 外的部分）
-- 上游打包的 OCR 模型 `data/ocr/**/*.onnx`（约 30 MB）
-- 运行日志与截图（`logs/`）、内部工作记录与打包备份（`.workbuddy/`）
+| 内容 | 原因 |
+|---|---|
+| Electron / Chromium 运行库、`AutoWSGR-GUI.exe`、`.asar` | 二进制与打包产物，随安装包分发 |
+| Python 解释器与第三方依赖（`python/` 下非 `autowsgr/` 部分） | 同上，安装器自带 |
+| OCR 模型 `data/ocr/ppocr_v6_small/{det,rec}.onnx` + `keys.txt`（约 30 MB） | 二进制；缺失时从上游发行渠道补齐 |
+| `node_modules/`（asar 内 341 文件） | `package.json` 可还原 |
+| `logs/`、`.workbuddy/` | 运行日志与内部工作记录 |
 
-## 还原方式
+## 推送注意
 
-把本仓库的 `python/site-packages/autowsgr/` 覆盖回安装目录同名路径即可生效（后端以 `python/python.exe` 3.12 运行）；OCR 模型缺失时需从上游发行渠道补齐 `data/ocr/ppocr_v6_small/{det,rec}.onnx` 与 `keys.txt`。
+本机到 `github.com:443` 的 TLS 握手会被间歇性阻断（`api.github.com` 正常）。`git push` 失败时：
+
+```bash
+python/python.exe .workbuddy/api_push.py
+```
+
+该脚本走 Git Data API（blob → tree → commit → PATCH ref）复刻本地提交，令牌取自
+Git Credential Manager。API 生成的 sha 与本地不同时，需要按同样方式重建提交对象再 `update-ref` 对齐。
 
 ## 许可证
 
-本仓库整体适用根目录 [LICENSE](LICENSE)：**OpenWSGR 严格非商业性许可协议**。
+根目录 [LICENSE](LICENSE)：**OpenWSGR 严格非商业性许可协议**。
 
 - 仅限非商业、非营利、完全免费地使用/复制/修改/分发；
 - 衍生作品必须以完全相同的条款分发（相同方式共享）；
 - 所有副本须保留版权声明与本许可声明。
 
-上游包元数据 `METADATA` 中标注的 `License: MIT` 与其随包 `LICENSE` 不一致，以 `LICENSE` 原文为准。
+上游包元数据 `METADATA` 标注 `License: MIT` 与其随包 `LICENSE` 不一致，以 `LICENSE` 原文为准。
